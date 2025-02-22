@@ -1,6 +1,6 @@
 import './OurSSVendors.css'
 import FortinetLogo from '../../assets/Fortinet.png'
-import Kaspersky from '../../assets/Kasperskylogo.png'
+import Kaspersky from '../../assets/kasperskylogo.png'
 import TrendMicro from '../../assets/trend_micro.png'
 import forcepoint from '../../assets/ForcePoint.png'
 import CrowdStrike from '../../assets/CrowdStrike.png'
