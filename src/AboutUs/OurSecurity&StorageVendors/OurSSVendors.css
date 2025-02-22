@@ -1,0 +1,124 @@
+@font-face {
+    font-family: mokoto;
+    src: url('../../Fonts/Mokoto-Demo.ttf');
+}
+
+.SSVendorsMain{
+    margin-bottom: 50px;
+}
+
+.SSVendorsTitleGroup{
+    width: 100%;
+    margin-top: 0;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.SSVendorsTitle{
+    display: flex;
+    width: 600px;
+    height: 40px;
+    font-family: mokoto;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.LineShape4{
+    height: 10px;
+    width: 600px;
+    background-image: linear-gradient(to right, #D2152B, #B0B0B0);
+    border-radius: 10px;
+}
+
+.SSVBody{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.CirclesRow1{
+    display: flex;
+    width: 85%;
+    justify-content: space-evenly;
+}
+
+.CirclesRow2{
+    display: flex;
+    width: 85%;
+    justify-content: space-evenly;
+}
+
+.CirclesRow3{
+    display: flex;
+    width: 85%;
+    justify-content: space-evenly;
+}
+
+.Circle{
+    width: 150px;
+    height: 150px;
+    background-color: #B0B0B0;
+    border-radius: 100px;
+    overflow: hidden;
+    background-color: #ffffff;
+} 
+
+.Circle img {
+    width: 150px;
+    height: 150px;
+}
+
+@media (max-width: 600px) {
+
+    .SSVendorsTitleGroup{
+        width: 100%;
+        margin-top: 0;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .SSVendorsTitle{
+        display: flex;
+        width: 450px;
+        height: 40px;
+        font-family: mokoto;
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .LineShape4{
+        height: 10px;
+        width: 425px;
+        background-image: linear-gradient(to right, #D2152B, #B0B0B0);
+        border-radius: 10px;
+    }
+
+    .Circle{
+        width: 90px;
+        height: 90px;
+        background-color: #B0B0B0;
+        border-radius: 100px;
+        overflow: hidden;
+        background-color: #ffffff;
+    } 
+    
+    .Circle img {
+        width: 90px;
+        height: 90px;
+    }
+}

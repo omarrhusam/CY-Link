@@ -1,0 +1,189 @@
+@font-face {
+    font-family: mokoto;
+    src: url('../Fonts/Mokoto-Demo.ttf');
+}
+
+.TitleGroup{
+    width: 500px;
+    margin-top: 80px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ServicesTitle{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    font-family: mokoto;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.LineShape{
+    height: 10px;
+    width: 300px;
+    background-image: linear-gradient(to right, #D2152B, #B0B0B0);
+    border-radius: 10px;
+}
+
+.Row1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 370px;
+    margin-bottom: 100px;
+}
+
+ .Card1{
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color: #fff;
+    font-family: mokoto;
+    letter-spacing: 2px;
+    text-align: center;
+    gap: 10px;
+    background-color: #00000070;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 15px 25px #000000;
+}
+.Img1{
+    width: 200px;
+    height: 200px;
+}
+
+.Img2{
+    width: 200px;
+    height: 200px;
+}
+
+.Img3{
+    width: 200px;
+    height: 200px;
+}
+
+.Row2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    font-family: mokoto;
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 600px;
+    border-radius: 30px;
+    gap: 10px;
+    background-color: #00000070;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 15px 25px #000000;
+}
+.Img4{
+    width: 200px;
+    height: 200px;
+}
+
+.Img5{
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width: 600px) {
+    .TitleGroup{
+        align-items: start;
+        margin-left: 30px;
+        margin-top: 130px;
+    }
+
+    .ServicesTitle{
+        padding: 0px;
+        font-size: 30px;
+        width: 250px;
+    }
+
+    .LineShape{
+        width: 230px;
+        margin-left: 10px;
+    }
+
+    .Row1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 370px;
+        margin-bottom: 100px;
+        gap: 30px;
+    }
+
+    .Row2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 540px;
+        gap: 30px;
+    }
+
+    .Card2{
+        width: 355px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .TitleGroup{
+        align-items: start;
+        margin-left: 30px;
+        margin-top: 130px;
+    }
+
+    .ServicesTitle{
+        padding: 0px;
+        font-size: 30px;
+        width: 250px;
+    }
+
+    .LineShape{
+        width: 230px;
+        margin-left: 10px;
+    }
+
+    .Row1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 370px;
+        margin-bottom: 100px;
+        gap: 30px;
+    }
+
+    .Row2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 540px;
+        gap: 30px;
+    }
+
+    .Card2{
+        width: 355px;
+    }
+}

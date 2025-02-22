@@ -1,0 +1,233 @@
+@font-face {
+    font-family: mokoto;
+    src: url('../../Fonts/Mokoto-Demo.ttf');
+}
+
+.NetworkVendorsTitleGroup{
+    width: 500px;
+    margin-top: 0;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.LineShape3{
+    height: 10px;
+    width: 405px;
+    background-image: linear-gradient(to right, #D2152B, #B0B0B0);
+    border-radius: 10px;
+}
+
+.NVRow1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.Row1Cards{
+    display: flex;
+    background-color: #D9D9D9;
+    width: 550px;
+    border-radius: 30px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.Row1Cards img{
+    width: 250px;
+    height: 220px;
+    background-color: #ffffff;
+}
+
+.Row1Cards h2{
+    font-family: mokoto;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.NVRow2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.Row2Cards{
+    display: flex;
+    background-color: #D9D9D9;
+    width: 550px;
+    border-radius: 30px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.Row2Cards img{
+    width: 250px;
+    height: 220px;
+    background-color: #ffffff;
+}
+
+.Row2Cards h2{
+    font-family: mokoto;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.NVRow3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.Row3Cards{
+    display: flex;
+    background-color: #D9D9D9;
+    width: 550px;
+    border-radius: 30px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.Row3Cards img{
+    width: 250px;
+    height: 220px;
+    background-color: #ffffff;
+}
+
+.Row3Cards h2{
+    font-family: mokoto;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+@media (max-width: 600px) {
+    .NVRow1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+
+    .Row1Cards{
+        width: 450px;
+        height: 180px;
+    }
+
+    .Row1Cards img{
+        width: 200px;
+    }
+
+    .Row1Cards h2{
+        font-size: 30px;
+    }
+
+    .NVRow2{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+
+    .Row2Cards{
+        width: 450px;
+        height: 180px;
+    }
+
+    .Row2Cards img{
+        width: 200px;
+    }
+
+    .Row2Cards h2{
+        font-size: 30px;
+    }
+
+    .NVRow3{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Row3Cards{
+        width: 450px;
+        height: 180px;
+    }
+
+    .Row3Cards img{
+        width: 200px;
+    }
+
+    .Row3Cards h2{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .NVRow1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+
+    .Row1Cards{
+        width: 450px;
+        height: 180px;
+    }
+
+    .Row1Cards img{
+        width: 200px;
+    }
+
+    .Row1Cards h2{
+        font-size: 30px;
+    }
+
+    .NVRow2{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+
+    .Row2Cards{
+        width: 450px;
+        height: 180px;
+    }
+
+    .Row2Cards img{
+        width: 200px;
+    }
+
+    .Row2Cards h2{
+        font-size: 30px;
+    }
+
+    .NVRow3{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Row3Cards{
+        width: 450px;
+        height: 180px;
+    }
+
+    .Row3Cards img{
+        width: 200px;
+    }
+
+    .Row3Cards h2{
+        font-size: 30px;
+    }
+}

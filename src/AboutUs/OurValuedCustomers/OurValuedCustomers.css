@@ -1,0 +1,969 @@
+@font-face {
+    font-family: mokoto;
+    src: url('../../Fonts/Mokoto-Demo.ttf');
+}
+
+@keyframes position {
+    0% {
+        background-image: linear-gradient(to bottom right, #ffffff50, #00ffff45);
+    }
+    50% {
+        background-image: linear-gradient(to top right, #ffffff50, #00ffff45);
+    }
+    100% {
+        background-image: linear-gradient(to top left, #ffffff50, #00ffff45);
+    }
+}
+
+.VCMain{
+    margin-bottom: 60px;
+}
+
+.VCBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.VCRow1{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.VCRow2{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.VCRow3{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.VCRow4{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.VCTitleGroup{
+    width: 100%;
+    margin-top: 0;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.VCTitle{
+    display: flex;
+    width: 600px;
+    height: 40px;
+    font-family: mokoto;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.LineShape7{
+    height: 10px;
+    width: 410px;
+    background-image: linear-gradient(to right, #D2152B, #B0B0B0);
+    border-radius: 10px;
+}
+
+.Row1Card1{
+    width: 300px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+    transition: all 1.5s ease-in-out;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: mokoto;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+
+.Row1Card1:hover{
+    transition: 0.5s;
+    filter: grayscale(100%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+.Row1Card1 img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.Row1Card1:hover > img{
+    transition: 1.5s;
+    filter: blur(2px);
+}
+
+.Row1Card1:not(:hover) > img{
+    transition: 1.5s;
+    filter: blur(0px);
+}
+
+.Row1Card1 h2{
+    z-index: 1;
+    opacity: 0;
+}
+
+.Row1Card1:hover > h2{
+    transition: 1s;
+    opacity: 1;
+}
+
+.Row1Card1:not(:hover) > h2{
+    transition: 1s;
+    opacity: 0;
+}
+
+.Row1Card2{
+    width: 300px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+    transition: all 1.5s ease-in-out;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: mokoto;
+    letter-spacing: 2px;
+}
+
+.Row1Card2:hover{
+    transition: 0.5s;
+    filter: grayscale(100%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+.Row1Card2 img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.Row1Card2:hover > img{
+    transition: 2s;
+    filter: blur(2px);
+}
+
+.Row1Card2:not(:hover) > img{
+    transition: 2s;
+    filter: blur(0px);
+}
+
+.Row1Card2 h2{
+    z-index: 1;
+    opacity: 0;
+}
+
+.Row1Card2:hover > h2{
+    transition: 1s;
+    opacity: 1;
+}
+
+.Row1Card2:not(:hover) > h2{
+    transition: 1s;
+    opacity: 0;
+}
+
+.Row1Card3{
+    width: 300px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+    transition: all 1.5s ease-in-out;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: mokoto;
+    letter-spacing: 2px;
+}
+
+.Row1Card3:hover{
+    transition: 0.5s;
+    filter: grayscale(100%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+.Row1Card3 h2{
+    z-index: 1;
+    opacity: 0;
+}
+
+.Row1Card3:hover > h2{
+    transition: 1s;
+    opacity: 1;
+}
+
+.Row1Card3:not(:hover) > h2{
+    transition: 1s;
+    opacity: 0;
+}
+
+.Row1Card3 img{
+    position: absolute;
+    width: 200px;
+    height: 90px;
+}
+
+.Row1Card3:hover > img{
+    transition: 2s;
+    filter: blur(2px);
+}
+
+.Row1Card3:not(:hover) > img{
+    transition: 2s;
+    filter: blur(0px);
+}
+
+.Row2Card1{
+    width: 300px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+    transition: all 1.5s ease-in-out;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: mokoto;
+    letter-spacing: 2px;
+}
+
+.Row2Card1:hover{
+    transition: 0.5s;
+    filter: grayscale(100%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+
+.Row2Card1 img{
+    position: absolute;
+    width: 170px;
+    height: 90px;
+}
+
+.Row2Card1:hover > img{
+    transition: 2s;
+    filter: blur(2px);
+}
+
+.Row2Card1:not(:hover) > img{
+    transition: 2s;
+    filter: blur(0px);
+}
+
+.Row2Card1 h2{
+    z-index: 1;
+    opacity: 0;
+}
+
+.Row2Card1:hover > h2{
+    transition: 1s;
+    opacity: 1;
+}
+
+.Row2Card1:not(:hover) > h2{
+    transition: 1s;
+    opacity: 0;
+}
+
+.Row2Card2{
+    width: 300px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+    transition: all 1.5s ease-in-out;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: mokoto;
+    letter-spacing: 2px;
+}
+
+.Row2Card2:hover{
+    transition: 0.5s;
+    filter: grayscale(100%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+.Row2Card2 img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.Row2Card2:hover > img{
+    transition: 2s;
+    filter: blur(2px);
+}
+
+.Row2Card2:not(:hover) > img{
+    transition: 2s;
+    filter: blur(0px);
+}
+
+.Row2Card2 h2{
+    z-index: 1;
+    opacity: 0;
+}
+
+.Row2Card2:hover > h2{
+    transition: 1s;
+    opacity: 1;
+}
+
+.Row2Card2:not(:hover) > h2{
+    transition: 1s;
+    opacity: 0;
+}
+
+.Row2Card3{
+    width: 300px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+    transition: all 1.5s ease-in-out;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: mokoto;
+    letter-spacing: 2px;
+}
+
+.Row2Card3:hover{
+    transition: 0.5s;
+    filter: grayscale(100%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+.Row2Card3 img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.Row2Card3:hover > img{
+    transition: 2s;
+    filter: blur(2px);
+}
+
+.Row2Card3:not(:hover) > img{
+    transition: 2s;
+    filter: blur(0px);
+}
+
+.Row2Card3 h2{
+    z-index: 1;
+    opacity: 0;
+}
+
+.Row2Card3:hover > h2{
+    transition: 1s;
+    opacity: 1;
+}
+
+.Row2Card3:not(:hover) > h2{
+    transition: 1s;
+    opacity: 0;
+}
+
+.Row3Card1{
+    width: 300px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+    transition: all 1.5s ease-in-out;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: mokoto;
+    letter-spacing: 2px;
+}
+
+.Row3Card1:hover{
+    transition: 0.5s;
+    filter: grayscale(100%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+.Row3Card1 img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.Row3Card1:hover > img{
+    transition: 2s;
+    filter: blur(2px);
+}
+
+.Row3Card1:not(:hover) > img{
+    transition: 2s;
+    filter: blur(0px);
+}
+
+.Row3Card1 h2{
+    z-index: 1;
+    opacity: 0;
+}
+
+.Row3Card1:hover > h2{
+    transition: 1s;
+    opacity: 1;
+}
+
+.Row3Card1:not(:hover) > h2{
+    transition: 1s;
+    opacity: 0;
+}
+
+.Row3Card2{
+    width: 300px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+    transition: all 1.5s ease-in-out;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: mokoto;
+    letter-spacing: 2px;
+}
+
+.Row3Card2:hover{
+    transition: 0.5s;
+    filter: grayscale(100%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+.Row3Card2 img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.Row3Card2:hover > img{
+    transition: 2s;
+    filter: blur(2px);
+}
+
+.Row3Card2:not(:hover) > img{
+    transition: 2s;
+    filter: blur(0px);
+}
+
+.Row3Card2 h2{
+    z-index: 1;
+    opacity: 0;
+}
+
+.Row3Card2:hover > h2{
+    transition: 1s;
+    opacity: 1;
+}
+
+.Row3Card2:not(:hover) > h2{
+    transition: 1s;
+    opacity: 0;
+}
+
+.Row3Card3{
+    width: 300px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+    transition: all 1.5s ease-in-out;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: mokoto;
+    letter-spacing: 2px;
+}
+
+.Row3Card3:hover{
+    transition: 0.5s;
+    filter: grayscale(100%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+.Row3Card3 img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.Row3Card3:hover > img{
+    transition: 2s;
+    filter: blur(2px);
+}
+
+.Row3Card3:not(:hover) > img{
+    transition: 2s;
+    filter: blur(0px);
+}
+
+.Row3Card3 h2{
+    z-index: 1;
+    opacity: 0;
+}
+
+.Row3Card3:hover > h2{
+    transition: 1s;
+    opacity: 1;
+}
+
+.Row3Card3:not(:hover) > h2{
+    transition: 1s;
+    opacity: 0;
+}
+
+.Row4Card1{
+    width: 300px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+    transition: all 1.5s ease-in-out;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: mokoto;
+    letter-spacing: 2px;
+}
+
+.Row4Card1:hover{
+    transition: 0.5s;
+    filter: grayscale(100%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+.Row4Card1 img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.Row4Card1:hover > img{
+    transition: 2s;
+    filter: blur(2px);
+}
+
+.Row4Card1:not(:hover) > img{
+    transition: 2s;
+    filter: blur(0px);
+}
+
+.Row4Card1 h2{
+    z-index: 1;
+    opacity: 0;
+}
+
+.Row4Card1:hover > h2{
+    transition: 1s;
+    opacity: 1;
+}
+
+.Row4Card1:not(:hover) > h2{
+    transition: 1s;
+    opacity: 0;
+}
+
+.Row4Card2{
+    width: 300px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+    transition: all 1.5s ease-in-out;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: mokoto;
+    letter-spacing: 2px;
+}
+
+.Row4Card2:hover{
+    transition: 0.5s;
+    filter: grayscale(100%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+.Row4Card2 img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.Row4Card2:hover > img{
+    transition: 2s;
+    filter: blur(2px);
+}
+
+.Row4Card2:not(:hover) > img{
+    transition: 2s;
+    filter: blur(0px);
+}
+
+.Row4Card2 h2{
+    opacity: 0;
+    z-index: 1;
+}
+
+.Row4Card2:hover > h2{
+    transition: 1s;
+    opacity: 1;
+}
+
+.Row4Card2:not(:hover) > h2{
+    transition: 1s;
+    opacity: 0;
+}
+
+.Row4Card3{
+    width: 300px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+    transition: all 1.5s ease-in-out;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: mokoto;
+    letter-spacing: 2px;
+}
+
+.Row4Card3:hover{
+    transition: 0.5s;
+    filter: grayscale(100%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+.Row4Card3 img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.Row4Card3:hover > img{
+    transition: 2s;
+    filter: blur(2px);
+}
+
+.Row4Card3:not(:hover) > img{
+    transition: 2s;
+    filter: blur(0px);
+}
+
+.Row4Card3 h2{
+    opacity: 0;
+    z-index: 1;
+}
+
+.Row4Card3:hover > h2{
+    transition: 1s;
+    opacity: 1;
+}
+
+.Row4Card3:not(:hover) > h2{
+    transition: 1s;
+    opacity: 0;
+}
+
+@media (max-width: 600px) {
+
+    .VCTitle{
+        display: flex;
+        width: 450px;
+        height: 40px;
+        font-family: mokoto;
+        font-size: 30px;
+        letter-spacing: 2px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .VCRow1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .VCRow2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .VCRow3{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .VCRow4{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .Row1Card1{
+        width: 170px;
+        height: 100px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        overflow: hidden;
+        font-size: 10px;
+    }
+
+    .Row1Card1 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    .Row1Card2{
+        width: 170px;
+        height: 100px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row1Card2 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    .Row1Card3{
+        width: 170px;
+        height: 100px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+
+    .Row1Card3 img{
+        position: absolute;
+        width: 100px;
+        height: 40px;
+    }
+
+    .Row2Card1{
+        width: 170px;
+        height: 100px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row2Card1 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    .Row2Card2{
+        width: 170px;
+        height: 100px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row2Card2 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    .Row2Card3{
+        width: 170px;
+        height: 100px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+
+    .Row2Card3 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    .Row3Card1{
+        width: 170px;
+        height: 100px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .Row3Card1 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    .Row3Card2{
+        width: 170px;
+        height: 100px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .Row3Card2 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    .Row3Card3{
+        width: 170px;
+        height: 100px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row3Card3 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    .Row4Card1{
+        width: 170px;
+        height: 100px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        overflow: hidden;
+        font-size: 10px;
+    }
+
+    .Row4Card1 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    .Row4Card2{
+        width: 170px;
+        height: 100px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row4Card2 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    .Row4Card3{
+        width: 170px;
+        height: 100px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row4Card3 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+}

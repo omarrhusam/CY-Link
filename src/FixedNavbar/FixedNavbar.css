@@ -1,0 +1,151 @@
+@font-face {
+    font-family: mokoto;
+    src: url(../Fonts/Mokoto-Demo.ttf);
+}
+
+  
+.FixedNavbarFrame{
+    position: static;
+    background-color: #D9D9D930;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+
+.NavbarQuote{
+    margin: 0,0,0,0;
+    font-family: mokoto;
+    font-size: 15px;
+    color: #ffffff;
+    /* line-height: 36.2px; */
+    letter-spacing: 2px;
+}
+
+.ContactInfo{
+    display: flex;
+    gap: 20px;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+
+.Phone{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 10px;
+    font-family: mokoto;
+    
+}
+
+.Mail{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 10px;
+    font-family: mokoto;
+}
+
+.Location{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 10px;
+    font-family: mokoto;
+}
+
+.PhoneLogo{
+    width: 20px;
+    height: 20px;
+}
+
+.MailLogo{
+    width: 20px;
+    height: 20px;
+}
+
+.LocationLogo{
+    width: 20px;
+    height: 20px;
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .FixedNavbarFrame{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 75px;
+        height: 25px;
+    }
+    .NavbarQuote{
+        font-size: 5px;
+    }
+    .ContactInfo{
+        gap: 5px;
+        font-size: 8px;
+    }
+    .PhoneLogo{
+        width: 10px;
+        height: 10px;
+    }
+    .MailLogo{
+        width: 10px;
+        height: 10px;
+    }
+    
+    .LocationLogo{
+        width: 10px;
+        height: 10px;
+    }
+    .Phone{
+        font-size: 6px;
+    }
+    .Mail{
+        font-size: 6px;
+    }
+    .Location p{
+        display: none;
+        font-size: 4px;
+    }
+}
+
+@media (max-width: 600px) {
+    .FixedNavbarFrame{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 75px;
+        height: 25px;
+    }
+    .NavbarQuote{
+        font-size: 3px;
+    }
+    .ContactInfo{
+        gap: 5px;
+        font-size: 5px;
+    }
+    .PhoneLogo{
+        width: 5px;
+        height: 5px;
+    }
+    .MailLogo{
+        width: 5px;
+        height: 5px;
+    }
+    
+    .LocationLogo{
+        width: 5px;
+        height: 5px;
+    }
+    .Phone{
+        font-size: 3px;
+    }
+    .Mail{
+        font-size: 3px;
+    }
+    .Location{
+        font-size: 2px;
+    }
+}

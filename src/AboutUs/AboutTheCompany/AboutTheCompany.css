@@ -1,0 +1,108 @@
+@font-face {
+    font-family: mokoto;
+    src: url('../../Fonts/Mokoto-Demo.ttf');
+}
+
+.AboutTheCompany{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 200px;
+}
+
+.Text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    height: 500px;
+    color: #fff;
+}
+
+.Text h1{
+    font-family: mokoto;
+    letter-spacing: 2px;
+    margin: 0px;
+    font-size: 60px;
+}
+
+.Text p{
+    font-family: mokoto;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.Logo{
+    width: 450px;
+    height: 450px;
+}
+
+
+@media (max-width: 600px) {
+    .AboutTheCompany{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-top: 25px;
+    }
+
+    .Logo{
+        height: 300px;
+        width: 300px;
+    }
+
+    .Text{
+        width: 450px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Text h1{
+        font-size: 40px;
+        margin-left: 25px;
+    }
+
+    .Text p{
+        font-size: 18px;
+        margin-left: 25px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .AboutTheCompany{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-top: 25px;
+    }
+
+    .Logo{
+        height: 300px;
+        width: 300px;
+    }
+
+    .Text{
+        width: 450px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Text h1{
+        font-size: 40px;
+        margin-left: 25px;
+    }
+
+    .Text p{
+        font-size: 18px;
+        margin-left: 25px;
+    }
+}

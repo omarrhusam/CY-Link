@@ -1,0 +1,222 @@
+@font-face {
+    font-family: mokoto;
+    src: url(../Fonts/Mokoto-Demo.ttf);
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.FloatingNavbarFrame{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    gap: 100px;
+    background-color: #00000070;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 15px 25px #000000;
+    z-index: 1;
+}
+
+.FloatingNavbarFrame img{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.NavbarNavigations{
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-link, .drop-menu li{
+    list-style: none;
+    height: 100%;
+    cursor: pointer;
+}
+
+.drop-menu{
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    margin: 0.5rem -0.5rem;
+    background-color: #000000;
+    font-family: mokoto;
+    letter-spacing: 2px;
+    border-radius: 0.5rem;
+    font-size: 12px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 15px 25px #000000;
+    animation: fadein 1.5s forwards;
+}
+
+.drop-menu li:hover{
+    color: #C3C1C1;
+}
+
+.dropdown-icon {
+    font-size: 15px;
+    position: relative;
+    right: -5px;
+    transform: rotate(0deg);
+    transition: 0.3s ease-in-out all;
+}
+
+.AboutUs:hover .dropdown-icon{
+    transform: rotate(180deg);
+}
+
+.NavbarNavigations a{
+    font-family: mokoto;
+    font-size: 15px;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.NavbarNavigations a:hover{
+    color: #D2152B;
+}
+
+.AboutUs:hover .drop-menu{
+    display: flex;
+}
+
+.AboutUs a{
+    display: flex;
+    width: 120px;
+    height: 20px;
+    align-items: center;
+    
+}
+
+.nav-link a{
+    width: 120px;
+}
+
+.NavbarBtn{
+    font-family: mokoto;
+    border-color: #D2152B;
+    border-radius: 10px;
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+    letter-spacing: 3px;
+}
+
+.NavbarBtn:hover{
+    background-color: #D2152B;
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .FloatingNavbarFrame{
+        width: 100%;
+        gap: 50px;
+        height: 60px;
+    }
+    
+    .FloatingNavbarFrame img{
+        width: 25px;
+        height: 25px;
+    }
+    
+    .NavbarNavigations{
+        gap: 10px;
+    }
+
+    .NavbarNavigations button{
+        width: 50px;
+        height: 20px;
+        font-size: 5px;
+    }
+
+    .NavbarBtn{
+        width: 60px;
+        height: 20px;
+        font-size: 4px;
+    }   
+}
+
+
+@media (max-width: 600px) {
+    .FloatingNavbarFrame{
+        width: 100%;
+        gap: 25px;
+        height: 60px;
+    }
+
+    .nav-links{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .nav-link a{
+        width: 70px;
+        font-size: 7px;        
+    }
+    
+    .FloatingNavbarFrame img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .NavbarNavigations button{
+        width: 50px;
+        height: 20px;
+        font-size: 5px;
+    }
+
+    .NavbarBtn{
+        width: 70px;
+        height: 20px;
+        font-size: 4px;
+    }
+}

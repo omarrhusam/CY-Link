@@ -1,0 +1,114 @@
+@font-face {
+    font-family: mokoto;
+    src: url(../Fonts/Mokoto-Demo.ttf);
+}
+
+.Home{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.HomeText{
+    color: #ffffff;
+    font-family: mokoto;
+    letter-spacing: 3px;
+}
+
+.HomeText h1{
+    font-size: 50px;
+}
+
+.HomeText p{
+    font-size: 20px;
+}
+
+.Home button{
+    font-family: mokoto;
+    font-size: larger;
+    border-color: #D2152B;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+    letter-spacing: 3px;
+}
+
+.Home button:hover{
+    background-color: #D2152B;
+}
+
+@media (max-width: 600px) {
+    .Home{
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 10px;
+    }
+
+    .HomeText h1{
+        font-size: 25px;
+    }
+
+    .HomeText p{
+        font-size: 10px;
+    }
+
+    .Home button{
+        font-family: mokoto;
+        font-size: small;
+        border-color: #D2152B;
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+        cursor: pointer;
+        background-color: transparent;
+        color: #ffffff;
+        transition: all 0.5s ease-in-out;
+        letter-spacing: 2px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .Home{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 40px;
+    }
+
+    .HomeText h1{
+        font-size: 28px;
+    }
+
+    .HomeText p{
+        font-size: 13px;
+    }
+
+    .Home button{
+        font-family: mokoto;
+        font-size: small;
+        border-color: #D2152B;
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+        cursor: pointer;
+        background-color: transparent;
+        color: #ffffff;
+        transition: all 0.5s ease-in-out;
+        letter-spacing: 2px;
+    }
+}
