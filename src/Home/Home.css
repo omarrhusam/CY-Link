@@ -45,7 +45,7 @@
     background-color: #D2152B;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .Home{
         height: 40vh;
         display: flex;
@@ -57,10 +57,12 @@
     }
 
     .HomeText h1{
+        width: 350px;
         font-size: 25px;
     }
 
     .HomeText p{
+        width: 350px;
         font-size: 10px;
     }
 

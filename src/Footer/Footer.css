@@ -79,7 +79,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 15px;
     color: #ffffff;
     font-family: mokoto;
     font-size: small;
@@ -154,45 +155,55 @@
 
 @media (max-width: 600px) {
     .FooterMain{
+        width: 100%;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        width: 100%;
-        height: 80vh;
         margin-top: 40px;
         background-color: black;
     }
 
     .UpperFooter{
         width: 100%;
-        height: 200px;
+        height: 300px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
         font-family: mokoto;
         letter-spacing: 2px;
     }
 
     .LowerFooter{
-        height: 350px;
+        width: 100%;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+        margin: 0px;
     }
 
     .RSLFooter{
-        width: 500px;
+        width: 90%;
         height: 300px;
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: start;
+        /* gap: 15px; */
         color: #ffffff;
         font-family: mokoto;
         font-size: small;
         letter-spacing: 2px;
+    }
+
+    .LSLFooter{
+        width: 90%;
+    }
+
+    .LSLFooter p{
+        font-size: x-large;
     }
 
     .QuickLines1 h1{
@@ -204,7 +215,7 @@
     }
 
     .QuickLines2 h1{
-        font-size: large;
+        display: none;
     }
 
     .QuickLines2 a{
@@ -212,7 +223,11 @@
     }
 
     .PhoneFooter h2{
-        font-size: 15px;
+        font-size: 12px;
+    }
+
+    .MailFooter{
+        width: 45%;
     }
 
     .MailFooter h2{
@@ -220,11 +235,12 @@
     }
 
     .LocationFooter{
-        width: 60%;
+        width: 75%;
         line-height: 15px;
     }
 
     .LocationFooter h2{
         width: 100%;
+        font-size: 10px;
     }
 }

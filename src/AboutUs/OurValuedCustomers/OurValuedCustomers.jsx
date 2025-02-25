@@ -23,7 +23,7 @@ export default function OurValuedCustomers() {
                 <div className='VCRow1'>
                     <div className='Row1Card1'>
                         <img src={SuazCanal} alt="" />
-                        <h2>Suaz Canal</h2>
+                        <h2>Suaz<br/>Canal</h2>
                     </div>
                     <div className='Row1Card2'>
                         <img src={AAST} alt="" />

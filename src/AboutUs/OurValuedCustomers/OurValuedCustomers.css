@@ -66,7 +66,7 @@
 
 .VCTitle{
     display: flex;
-    width: 600px;
+    width: 100%;
     height: 40px;
     font-family: mokoto;
     font-size: 30px;
@@ -690,15 +690,19 @@
 
     .VCTitle{
         display: flex;
-        width: 450px;
+        width: 100%;
         height: 40px;
         font-family: mokoto;
-        font-size: 30px;
+        font-size: 25px;
         letter-spacing: 2px;
         color: white;
         align-items: center;
         justify-content: center;
         margin: 0;
+    }
+
+    .LineShape7{
+        width: 350px;
     }
 
     .VCRow1{
@@ -730,8 +734,8 @@
     }
     
     .Row1Card1{
-        width: 170px;
-        height: 100px;
+        width: 110px;
+        height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
         border-radius: 30px;
@@ -741,18 +745,19 @@
         font-family: mokoto;
         letter-spacing: 2px;
         overflow: hidden;
-        font-size: 10px;
+        font-size: 13px;
+        text-align: center;
     }
 
     .Row1Card1 img{
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .Row1Card2{
-        width: 170px;
-        height: 100px;
+        width: 110px;
+        height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
         border-radius: 30px;
@@ -765,13 +770,13 @@
 
     .Row1Card2 img{
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .Row1Card3{
-        width: 170px;
-        height: 100px;
+        width: 110px;
+        height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
         border-radius: 30px;
@@ -781,17 +786,18 @@
         font-family: mokoto;
         letter-spacing: 2px;
         font-size: 10px;
+        text-align: center;
     }
 
     .Row1Card3 img{
         position: absolute;
-        width: 100px;
-        height: 40px;
+        width: 80px;
+        height: 30px;
     }
 
     .Row2Card1{
-        width: 170px;
-        height: 100px;
+        width: 110px;
+        height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
         border-radius: 30px;
@@ -804,13 +810,13 @@
 
     .Row2Card1 img{
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .Row2Card2{
-        width: 170px;
-        height: 100px;
+        width: 110px;
+        height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
         border-radius: 30px;
@@ -823,13 +829,13 @@
 
     .Row2Card2 img{
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .Row2Card3{
-        width: 170px;
-        height: 100px;
+        width: 110px;
+        height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
         border-radius: 30px;
@@ -839,17 +845,18 @@
         font-family: mokoto;
         letter-spacing: 2px;
         font-size: 12px;
+        text-align: center;
     }
 
     .Row2Card3 img{
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .Row3Card1{
-        width: 170px;
-        height: 100px;
+        width: 110px;
+        height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
         border-radius: 30px;
@@ -864,13 +871,13 @@
 
     .Row3Card1 img{
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .Row3Card2{
-        width: 170px;
-        height: 100px;
+        width: 110px;
+        height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
         border-radius: 30px;
@@ -885,13 +892,13 @@
 
     .Row3Card2 img{
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .Row3Card3{
-        width: 170px;
-        height: 100px;
+        width: 110px;
+        height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
         border-radius: 30px;
@@ -900,17 +907,18 @@
         justify-content: center;
         font-family: mokoto;
         letter-spacing: 2px;
+        font-size: 10px;
     }
 
     .Row3Card3 img{
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .Row4Card1{
-        width: 170px;
-        height: 100px;
+        width: 110px;
+        height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
         border-radius: 30px;
@@ -920,18 +928,18 @@
         font-family: mokoto;
         letter-spacing: 2px;
         overflow: hidden;
-        font-size: 10px;
+        font-size: 7px;
     }
 
     .Row4Card1 img{
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .Row4Card2{
-        width: 170px;
-        height: 100px;
+        width: 110px;
+        height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
         border-radius: 30px;
@@ -944,13 +952,13 @@
 
     .Row4Card2 img{
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .Row4Card3{
-        width: 170px;
-        height: 100px;
+        width: 110px;
+        height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
         border-radius: 30px;
@@ -959,11 +967,12 @@
         justify-content: center;
         font-family: mokoto;
         letter-spacing: 2px;
+        font-size: 10px;
     }
 
     .Row4Card3 img{
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 }

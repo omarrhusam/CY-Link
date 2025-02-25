@@ -3,14 +3,32 @@
     src: url('../../Fonts/Mokoto-Demo.ttf');
 }
 
+.MainNetworkVendors{
+    margin-top: 100px;
+    width: 100%;
+}
+
 .NetworkVendorsTitleGroup{
-    width: 500px;
+    width: 100%;
     margin-top: 0;
     height: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.NetworkTitle{
+    display: flex;
+    width: 500px;
+    height: 40px;
+    font-family: mokoto;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
 }
 
 .LineShape3{
@@ -111,6 +129,22 @@
 }
 
 @media (max-width: 600px) {
+    .NetworkVendorsTitleGroup{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .NetworkTitle{
+        width: 100%;
+        font-size: 19px;
+    }
+
+    .LineShape3{
+        width: 275px;
+    }
+
     .NVRow1{
         display: flex;
         flex-direction: column;
@@ -119,16 +153,17 @@
     }
 
     .Row1Cards{
-        width: 450px;
-        height: 180px;
+        width: 90%;
+        height: 150px;
     }
 
     .Row1Cards img{
-        width: 200px;
+        width: 150px;
+        height: 150px;
     }
 
     .Row1Cards h2{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .NVRow2{
@@ -139,16 +174,17 @@
     }
 
     .Row2Cards{
-        width: 450px;
-        height: 180px;
+        width: 90%;
+        height: 150px;
     }
 
     .Row2Cards img{
-        width: 200px;
+        width: 150px;
+        height: 150px;
     }
 
     .Row2Cards h2{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .NVRow3{
@@ -158,12 +194,13 @@
     }
 
     .Row3Cards{
-        width: 450px;
-        height: 180px;
+        width: 90%;
+        height: 150px;
     }
 
     .Row3Cards img{
-        width: 200px;
+        width: 150px;
+        height: 150px;
     }
 
     .Row3Cards h2{

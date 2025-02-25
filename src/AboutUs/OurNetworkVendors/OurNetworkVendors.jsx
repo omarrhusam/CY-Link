@@ -9,7 +9,7 @@ export default function OurNetworkVendors(){
     return(
         <main id='OurNetworkVendors' className='MainNetworkVendors'>
             <div className='NetworkVendorsTitleGroup'>
-                <h2 className='Title'>Our Network Vendors</h2>
+                <h2 className='NetworkTitle'>Our Network Vendors</h2>
                 <div className='LineShape3'></div>
             </div>
             <body className='NVBody'>

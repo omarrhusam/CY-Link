@@ -23,7 +23,7 @@ export default function OurTractons() {
           <div className="CSCard">
             <h2>Customers Served</h2>
             <p>
-              {counterOn && <CountUp start={0} end={20} duration={3} delay={0} />}+
+              {counterOn && <CountUp start={0} end={40} duration={3} delay={0} />}+
             </p>
           </div>
           <div className="TPVCard">

@@ -2,8 +2,8 @@ import './MissionVission.css'
 
 export default function MissionVission() {
     return(
-        <main id='OurVision&Mission'>
-             <div className='TitleGroup'>
+        <main id='OurVision&Mission' className='ourVisionMissionMain'>
+             <div className='MVTitleGroup'>
                 <h2 className='Title'>Our Vision & Mission</h2>
                 <div className='LineShape2'></div>
             </div>

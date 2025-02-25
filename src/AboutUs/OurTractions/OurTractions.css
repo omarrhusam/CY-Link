@@ -53,7 +53,10 @@
     font-family: mokoto;
     width: 330px;
     height: 240px;
-    background-color: #B0B0B0;
+    background-color: #00000070;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 15px 25px #000000;
     border-radius: 30px;
 }
 
@@ -61,10 +64,12 @@
     text-align: center;
     letter-spacing: 2px;
     font-size: 20px;
+    color: white;
 }
 
 .NetRevenueCard p{
     font-size: 30px;
+    color: white;
 }
 
 .CSCard{
@@ -75,7 +80,10 @@
     font-family: mokoto;
     width: 330px;
     height: 240px;
-    background-color: #B0B0B0;
+    background-color: #00000070;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 15px 25px #000000;
     border-radius: 30px;
 }
 
@@ -83,10 +91,12 @@
     text-align: center;
     letter-spacing: 2px;
     font-size: 20px;
+    color: white;
 }
 
 .CSCard p{
     font-size: 30px;
+    color: white;
 }
 
 .TPVCard{
@@ -97,7 +107,10 @@
     font-family: mokoto;
     width: 330px;
     height: 240px;
-    background-color: #B0B0B0;
+    background-color: #00000070;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 15px 25px #000000;
     border-radius: 30px;
 }
 
@@ -105,16 +118,18 @@
     text-align: center;
     letter-spacing: 2px;
     font-size: 17px;
+    color: white;
 }
 
 .TPVCard p{
     font-size: 30px;
+    color: white;
 }
 
 @media (max-width: 600px) {
     .TractionsTitle{
         display: flex;
-        width: 400px;
+        width: 100%;
         height: 40px;
         font-family: mokoto;
         font-size: 30px;
@@ -127,10 +142,11 @@
 
     .TractionBody{
         width: 100%;
-        height: 75vh;
+        height: 85vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        margin: 0px;
     }
 }

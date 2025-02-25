@@ -1,12 +1,19 @@
 import './FloatingNavbar.css'
 import CYLinkLogo from '../assets/CYLinkLogo.png'
 import { Link } from 'react-scroll'
+import {FaBars, FaTimes} from 'react-icons/fa'
+import { useRef } from 'react'
 
 export default function FloatingNavbar() {
+    const navRef = useRef();
+    const showNavbar = () => {
+        navRef.current.classList.toggle("responsive_nav")
+    }
+
     return(
         <main className='FloatingNavbarFrame'>
             <img src={CYLinkLogo} alt="CY-Link" />
-            <div className='NavbarNavigations'>
+            <nav ref={navRef} className='NavbarNavigations'>
                 <ul className='nav-links'>
                     <li className='nav-link'>
                         <Link to='Home' smooth={true} duration={1000} className='cursor-pointer'>Home</Link>
@@ -15,7 +22,7 @@ export default function FloatingNavbar() {
                         <Link to='Services' smooth={true} duration={1000} className='cursor-pointer'>services</Link>
                     </li>
                     <li className='nav-link AboutUs'>
-                        <a href="a">About Us
+                        <a>About Us
                             <span className="material-icons dropdown-icon">
                                 arrow_drop_down
                             </span>
@@ -51,8 +58,13 @@ export default function FloatingNavbar() {
                         <Link to='ContactUS' smooth={true} duration={1000} className='cursor-pointer'>Contact US</Link>
                     </li>
                 </ul>
-            </div>
-            <button className='NavbarBtn'>GET CONTACT</button>
+                <button className='NavBtn NavCloseBtn' onClick={showNavbar}>
+                    <FaTimes/>
+                </button>
+            </nav>
+            <button className='NavBtn' onClick={showNavbar}>
+                <FaBars/>
+            </button>
         </main>
     )
 }

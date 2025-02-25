@@ -247,7 +247,7 @@
         height: 1500px;
         align-items: center;
         justify-content: space-evenly;
-        
+        margin: 0;
     }
 
     .CVTitle{
