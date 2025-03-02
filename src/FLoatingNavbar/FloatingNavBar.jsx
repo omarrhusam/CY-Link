@@ -15,11 +15,11 @@ export default function FloatingNavbar() {
             <img src={CYLinkLogo} alt="CY-Link" />
             <nav ref={navRef} className='NavbarNavigations'>
                 <ul className='nav-links'>
-                    <li className='nav-link'>
+                    <li className='nav-link'> 
                         <Link to='Home' smooth={true} duration={1000} className='cursor-pointer'>Home</Link>
                     </li>
                     <li className='nav-link'>
-                        <Link to='Services' smooth={true} duration={1000} className='cursor-pointer'>services</Link>
+                        <Link to='Services' smooth={true} duration={1000} className='cursor-pointer'>Services</Link>
                     </li>
                     <li className='nav-link AboutUs'>
                         <a>About Us

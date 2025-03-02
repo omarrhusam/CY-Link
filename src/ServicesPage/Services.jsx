@@ -7,35 +7,37 @@ import img5 from '../assets/5.png'
 
 export default function Services() {
     return(
-        <main className='Mainervices'>
+        <main id='Services' className='Mainervices'>
             <div className='TitleGroup'>
                 <h2 className='ServicesTitle'>Our Services</h2>
                 <div className='LineShape'></div>
             </div>
-            <div className='Row1'>
-                <div className='Card1'>
-                    <img src={img1} className='Img1' />
-                    <p>Consultation<br/>& Implementation services</p>
+            <body className='body'>
+                <div className='Row1'>
+                    <div className='Card1'>
+                        <img src={img1} className='Img1' />
+                        <p>Consultation<br/>& Implementation services</p>
+                    </div>
+                    <div className='Card1'>
+                        <img src={img2} className='Img2'/>
+                        <p>Penetration Testing<br/>& Security assessment services</p>
+                    </div>
+                    <div className='Card1'>
+                        <img src={img3} className='Img3'/>
+                        <p>Solution Design, Configuration<br/>& Finetuning services</p>
+                    </div>
                 </div>
-                <div className='Card1'>
-                    <img src={img2} className='Img2'/>
-                    <p>Penetration Testing<br/>& Security assessment services</p>
+                <div className='Row2'>
+                    <div className='Card2'>
+                        <img src={img4} className='Img4'/>
+                        <p>Deployment of Various Cybersecurity  solutions<br/>(cloud, OT, SecOps solutions).</p>
+                    </div>
+                    <div className='Card2'>
+                        <img src={img5} className='Img5'/>
+                        <p>Educational Recourses & after sale support.</p>
+                    </div>
                 </div>
-                <div className='Card1'>
-                    <img src={img3} className='Img3'/>
-                    <p>Solution Design, Configuration<br/>& Finetuning services</p>
-                </div>
-            </div>
-            <div className='Row2'>
-                <div className='Card2'>
-                    <img src={img4} className='Img4'/>
-                    <p>Deployment of Various Cybersecurity  solutions<br/>(cloud, OT, SecOps solutions).</p>
-                </div>
-                <div className='Card2'>
-                    <img src={img5} className='Img5'/>
-                    <p>Educational Recourses & after sale support.</p>
-                </div>
-            </div>
+            </body>
         </main>
     )
 }

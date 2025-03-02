@@ -9,7 +9,7 @@
 }
 
 .MVTitleGroup{
-    width: 500px;
+    width: 100%;
     margin-top: 0;
     height: 150px;
     display: flex;
@@ -17,8 +17,8 @@
     align-items: center;
     justify-content: center;
 }
-
-.Title{
+ 
+.MVTitle{
     display: flex;
     width: 500px;
     height: 40px;
@@ -61,24 +61,26 @@
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     box-shadow: 0 15px 25px #000000;
+    padding: 30px;
 }
 
 .MissionCard p, .VisionCard p{
     font-size: 15px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 
 .MissionCard h3, .VisionCard h3{
     font-size: 30px;
     color: #95131C;
-    margin-left: 30px;
+    /* margin-left: 30px; */
+    margin-bottom: 15px;
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 321px) {
     .ourVisionMissionMain{
         width: 100%;
-        margin-top: 100px;
+        margin-top: 10px;
     }
 
     .MVTitleGroup{
@@ -86,13 +88,15 @@
         margin-left: 0px;
     }
 
-    .Title{
+    .MVTitle{
         width: 100%;
-        font-size: 22px;
+        font-size: 15px;
+        height: 20px;
     }
 
     .LineShape2{
-        width: 285px;
+        width: 210px;
+        height: 5px;
     }
 
     .Body{
@@ -100,38 +104,247 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        height: 900px;
+        height: 800px;
         margin: 0px;
     }
 
     .MissionCard, .VisionCard{
-        width: 300px;
+        width: 250px;
+        padding: 15px;
+    }
+
+    .MissionCard p, .VisionCard p{
+        font-size: 8px;
+        /* margin-left: 30px; */
+    }
+    
+    .MissionCard h3, .VisionCard h3{
+        font-size: 20px;
+        color: #95131C;
+        /* margin-left: 30px; */
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 322px) and (max-width: 376px) {
+    .ourVisionMissionMain{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .MVTitleGroup{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .MVTitle{
+        width: 100%;
+        font-size: 15px;
+        height: 20px;
+    }
+
+    .LineShape2{
+        width: 210px;
+        height: 5px;
+    }
+
+    .Body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 800px;
+        margin: 0px;
+    }
+
+    .MissionCard, .VisionCard{
+        width: 250px;
+        padding: 15px;
+    }
+
+    .MissionCard p, .VisionCard p{
+        font-size: 8px;
+        /* margin-left: 30px; */
+    }
+    
+    .MissionCard h3, .VisionCard h3{
+        font-size: 20px;
+        color: #95131C;
+        /* margin-left: 30px; */
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+    .ourVisionMissionMain{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .MVTitleGroup{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .MVTitle{
+        width: 100%;
+        font-size: 15px;
+        height: 20px;
+    }
+
+    .LineShape2{
+        width: 210px;
+        height: 5px;
+    }
+
+    .Body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 800px;
+        margin: 0px;
+    }
+
+    .MissionCard, .VisionCard{
+        width: 250px;
+        padding: 15px;
+    }
+
+    .MissionCard p, .VisionCard p{
+        font-size: 8px;
+        /* margin-left: 30px; */
+    }
+    
+    .MissionCard h3, .VisionCard h3{
+        font-size: 20px;
+        color: #95131C;
+        /* margin-left: 30px; */
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 427px) and (max-width: 769px) {
+    .ourVisionMissionMain{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .MVTitleGroup{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .MVTitle{
+        width: 100%;
+        font-size: 25px;
+        height: 30px;
+    }
+
+    .LineShape2{
+        width: 315px;
+        height: 8px;
+    }
+
+    .Body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 650px;
+        margin: 0px;
+    }
+
+    .MissionCard, .VisionCard{
+        width: 400px;
+        padding: 15px;
     }
 
     .MissionCard p, .VisionCard p{
         font-size: 12px;
-        margin-left: 30px;
+        /* margin-left: 30px; */
     }
     
     .MissionCard h3, .VisionCard h3{
         font-size: 25px;
         color: #95131C;
-        margin-left: 30px;
+        /* margin-left: 30px; */
+        margin-bottom: 10px;
     }
-
-
 }
 
-@media (min-width: 601px) and (max-width: 1024px) {
-    .TitleGroup{
-        margin-left: 35px;
+@media (min-width: 770px) and (max-width: 1025px) {
+    .ourVisionMissionMain{
+        width: 100%;
+        margin-top: 100px;
     }
-
-    .Body{
+    
+    .MVTitleGroup{
+        width: 100%;
+        margin-top: 0;
+        height: 150px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
-        height: 900px;
+        justify-content: center;
     }
+     
+    .MVTitle{
+        display: flex;
+        width: 500px;
+        height: 40px;
+        font-family: mokoto;
+        font-size: 30px;
+        letter-spacing: 2px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    .LineShape2{
+        height: 10px;
+        width: 375px;
+        background-image: linear-gradient(to right, #D2152B, #B0B0B0);
+        border-radius: 10px;
+    }
+    
+    .Body{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .MissionCard, .VisionCard{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        color: #ffffff;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        background-color: #00000070;
+        line-height: 20px;
+        width: 400px;
+        border-radius: 15px;
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        box-shadow: 0 15px 25px #000000;
+        padding: 30px;
+    }
+    
+    .MissionCard p, .VisionCard p{
+        font-size: 12px;
+        /* margin-left: 30px; */
+    }
+    
+    .MissionCard h3, .VisionCard h3{
+        font-size: 25px;
+        color: #95131C;
+        /* margin-left: 30px; */
+        margin-bottom: 15px;
+    }
+    
 }

@@ -60,9 +60,10 @@
     margin: 0;
     padding: 0;
     align-items: center;
+    list-style: none;
 }
 
-.nav-link, .drop-menu li{
+.drop-menu li{
     list-style: none;
     height: 100%;
     cursor: pointer;
@@ -158,7 +159,87 @@
     height: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 321px) {
+    .FloatingNavbarFrame{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        height: 100%;
+    }
+
+    .FloatingNavbarFrame img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .NavBtn{
+        display: flex;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .NavbarNavigations{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        background-color: #000000;
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    .NavbarNavigations .NavCloseBtn{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .nav-link{
+        width: auto;
+        height: auto;
+    }
+
+    .AboutUs:hover .drop-menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+
+    main .responsive_nav{
+        transform: none;
+    }
+
+    .drop-menu{
+        width: 50%;
+        height: 60vh;
+    }
+
+    .drop-menu a{
+        font-size: 10px;
+    }
+
+    .drop-menu li{
+        padding: 10px;
+    }
+}
+
+@media (min-width: 322px) and (max-width: 376px) {
     .FloatingNavbarFrame{
         width: 100%;
         display: flex;
@@ -212,12 +293,193 @@
         width: auto;
     }
 
+    .AboutUs:hover .drop-menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+
     main .responsive_nav{
         transform: none;
     }
+
+    .drop-menu{
+        width: 50%;
+        height: 60vh;
+    }
+
+    .drop-menu a{
+        font-size: 10px;
+    }
+
+    .drop-menu li{
+        padding: 10px;
+    }
 }
 
-@media (min-width: 601px) and (max-width: 1024px) {
+@media (min-width: 377px) and (max-width: 426px) {
+    .FloatingNavbarFrame{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        height: 100%;
+    }
+
+    .FloatingNavbarFrame img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .NavBtn{
+        display: flex;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .NavbarNavigations{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        background-color: #000000;
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    .NavbarNavigations .NavCloseBtn{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .nav-link{
+        width: auto;
+    }
+
+    .AboutUs:hover .drop-menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+
+    main .responsive_nav{
+        transform: none;
+    }
+
+    .drop-menu{
+        width: 50%;
+        height: 60vh;
+    }
+
+    .drop-menu a{
+        font-size: 10px;
+    }
+
+    .drop-menu li{
+        padding: 10px;
+    }
+}
+
+@media (min-width: 427px) and (max-width: 769px) {
+    .FloatingNavbarFrame{
+        width: 100%;
+        display: flex;
+        height: 45px;
+    }
+
+    .FloatingNavbarFrame img{
+        position: fixed;
+        left: 100px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .NavBtn{
+        position: fixed;
+        right: 100px;
+        display: flex;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .NavbarNavigations{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        background-color: #000000;
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    .NavbarNavigations .NavCloseBtn{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .nav-link{
+        width: auto;
+    }
+
+    .AboutUs:hover .drop-menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+
+    main .responsive_nav{
+        transform: none;
+    }
+
+    .drop-menu{
+        width: 50%;
+        height: 60vh;
+    }
+
+    .drop-menu a{
+        font-size: 10px;
+    }
+
+    .drop-menu li{
+        padding: 10px;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1025px) {
     .FloatingNavbarFrame{
         width: 100%;
         gap: 50px;
@@ -233,10 +495,12 @@
         gap: 10px;
     }
 
-    .NavbarNavigations button{
-        width: 50px;
-        height: 20px;
-        font-size: 5px;
-    }  
+    .nav-link{
+        width: 100px;
+    }
+
+    .nav-link a{
+        font-size: 13px;
+    }
 }
 

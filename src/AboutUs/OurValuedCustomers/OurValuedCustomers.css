@@ -108,6 +108,7 @@
     position: absolute;
     width: 200px;
     height: 200px;
+    object-fit: cover;
 }
 
 .Row1Card1:hover > img{
@@ -158,6 +159,7 @@
     position: absolute;
     width: 150px;
     height: 150px;
+    object-fit: cover;
 }
 
 .Row1Card2:hover > img{
@@ -221,8 +223,9 @@
 
 .Row1Card3 img{
     position: absolute;
-    width: 200px;
-    height: 90px;
+    width: 150px;
+    height: 110px;
+    object-fit: cover;
 }
 
 .Row1Card3:hover > img{
@@ -259,6 +262,7 @@
     position: absolute;
     width: 170px;
     height: 90px;
+    object-fit: cover;
 }
 
 .Row2Card1:hover > img{
@@ -309,6 +313,7 @@
     position: absolute;
     width: 150px;
     height: 150px;
+    object-fit: cover;
 }
 
 .Row2Card2:hover > img{
@@ -359,6 +364,7 @@
     position: absolute;
     width: 150px;
     height: 150px;
+    object-fit: cover;
 }
 
 .Row2Card3:hover > img{
@@ -409,6 +415,7 @@
     position: absolute;
     width: 150px;
     height: 150px;
+    object-fit: cover;
 }
 
 .Row3Card1:hover > img{
@@ -457,8 +464,9 @@
 
 .Row3Card2 img{
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .Row3Card2:hover > img{
@@ -507,8 +515,9 @@
 
 .Row3Card3 img{
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .Row3Card3:hover > img{
@@ -557,8 +566,9 @@
 
 .Row4Card1 img{
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .Row4Card1:hover > img{
@@ -609,6 +619,7 @@
     position: absolute;
     width: 150px;
     height: 150px;
+    object-fit: cover;
 }
 
 .Row4Card2:hover > img{
@@ -659,6 +670,7 @@
     position: absolute;
     width: 150px;
     height: 150px;
+    object-fit: cover;
 }
 
 .Row4Card3:hover > img{
@@ -686,14 +698,14 @@
     opacity: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 321px) {
 
-    .VCTitle{
+    .VCTitle{ 
         display: flex;
         width: 100%;
-        height: 40px;
+        height: 20px;
         font-family: mokoto;
-        font-size: 25px;
+        font-size: 12px;
         letter-spacing: 2px;
         color: white;
         align-items: center;
@@ -702,7 +714,8 @@
     }
 
     .LineShape7{
-        width: 350px;
+        width: 190px;
+        height: 5px;
     }
 
     .VCRow1{
@@ -734,7 +747,360 @@
     }
     
     .Row1Card1{
-        width: 110px;
+        width: 30%;
+        height: 70px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        overflow: hidden;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .Row1Card1 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .Row1Card1 h2{
+        font-size: 15px;
+    }
+
+    .Row1Card2{
+        width: 30%;
+        height: 70px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row1Card2 h2{
+        font-size: 15px;
+    }
+
+    .Row1Card2 img{
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        object-fit: cover;
+    }
+
+    .Row1Card3{
+        width: 30%;
+        height: 70px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .Row1Card3 h2{
+        font-size: 10px;
+    }
+
+    .Row1Card3 img{
+        position: absolute;
+        width: 70px;
+        height: 50px;
+        object-fit: cover;
+    }
+
+    .Row2Card1{
+        width: 30%;
+        height: 70px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row2Card1 h2{
+        font-size: 15px;
+    }
+
+    .Row2Card1 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .Row2Card2{
+        width: 30%;
+        height: 70px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row2Card2 h2{
+        font-size: 15px;
+    }
+
+    .Row2Card2 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .Row2Card3{
+        width: 30%;
+        height: 70px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .Row2Card3 h2{
+        font-size: 14px;
+    }
+
+    .Row2Card3 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .Row3Card1{
+        width: 30%;
+        height: 70px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .Row3Card1 h2{
+        font-size: 10px;
+    }
+
+    .Row3Card1 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .Row3Card2{
+        width: 30%;
+        height: 70px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .Row3Card2 h2{
+        font-size: 10px;
+    }
+
+    .Row3Card2 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .Row3Card3{
+        width: 30%;
+        height: 70px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+
+    .Row3Card3 h2{
+        font-size: 12px;
+    }
+
+    .Row3Card3 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        
+    }
+
+    .Row4Card1{
+        width: 30%;
+        height: 70px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        overflow: hidden;
+        font-size: 7px;
+    }
+
+    .Row4Card1 h2{
+        font-size: 8px;
+    }
+
+    .Row4Card1 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .Row4Card2{
+        width: 30%;
+        height: 70px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row4Card2 h2{
+        font-size: 15px;
+    }
+
+    .Row4Card2 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .Row4Card3{
+        width: 30%;
+        height: 70px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+
+    .Row4Card3 h2{
+        font-size: 12px;
+    }
+
+    .Row4Card3 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 322px) and (max-width: 376px) {
+
+    .VCTitle{ 
+        display: flex;
+        width: 100%;
+        height: 20px;
+        font-family: mokoto;
+        font-size: 15px;
+        letter-spacing: 2px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .LineShape7{
+        width: 225px;
+        height: 7px;
+    }
+
+    .VCRow1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .VCRow2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .VCRow3{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .VCRow4{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .Row1Card1{
+        width: 30%;
         height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
@@ -751,12 +1117,17 @@
 
     .Row1Card1 img{
         position: absolute;
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .Row1Card1 h2{
+        font-size: 15px;
     }
 
     .Row1Card2{
-        width: 110px;
+        width: 30%;
         height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
@@ -768,14 +1139,19 @@
         letter-spacing: 2px;
     }
 
+    .Row1Card2 h2{
+        font-size: 15px;
+    }
+
     .Row1Card2 img{
         position: absolute;
-        width: 80px;
-        height: 80px;
+        width: 65px;
+        height: 65px;
+        object-fit: cover;
     }
 
     .Row1Card3{
-        width: 110px;
+        width: 30%;
         height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
@@ -789,14 +1165,19 @@
         text-align: center;
     }
 
+    .Row1Card3 h2{
+        font-size: 10px;
+    }
+
     .Row1Card3 img{
         position: absolute;
-        width: 80px;
-        height: 30px;
+        width: 70px;
+        height: 50px;
+        object-fit: cover;
     }
 
     .Row2Card1{
-        width: 110px;
+        width: 30%;
         height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
@@ -806,16 +1187,21 @@
         justify-content: center;
         font-family: mokoto;
         letter-spacing: 2px;
+    }
+
+    .Row2Card1 h2{
+        font-size: 15px;
     }
 
     .Row2Card1 img{
         position: absolute;
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
     }
 
     .Row2Card2{
-        width: 110px;
+        width: 30%;
         height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
@@ -827,14 +1213,19 @@
         letter-spacing: 2px;
     }
 
+    .Row2Card2 h2{
+        font-size: 15px;
+    }
+
     .Row2Card2 img{
         position: absolute;
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
     }
 
     .Row2Card3{
-        width: 110px;
+        width: 30%;
         height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
@@ -848,14 +1239,19 @@
         text-align: center;
     }
 
+    .Row2Card3 h2{
+        font-size: 14px;
+    }
+
     .Row2Card3 img{
         position: absolute;
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
     }
 
     .Row3Card1{
-        width: 110px;
+        width: 30%;
         height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
@@ -867,16 +1263,21 @@
         letter-spacing: 2px;
         font-size: 10px;
         text-align: center;
+    }
+
+    .Row3Card1 h2{
+        font-size: 10px;
     }
 
     .Row3Card1 img{
         position: absolute;
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
     }
 
     .Row3Card2{
-        width: 110px;
+        width: 30%;
         height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
@@ -890,14 +1291,19 @@
         text-align: center;
     }
 
+    .Row3Card2 h2{
+        font-size: 10px;
+    }
+
     .Row3Card2 img{
         position: absolute;
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
     }
 
     .Row3Card3{
-        width: 110px;
+        width: 30%;
         height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
@@ -910,14 +1316,20 @@
         font-size: 10px;
     }
 
+    .Row3Card3 h2{
+        font-size: 12px;
+    }
+
     .Row3Card3 img{
         position: absolute;
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        
     }
 
     .Row4Card1{
-        width: 110px;
+        width: 30%;
         height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
@@ -931,14 +1343,19 @@
         font-size: 7px;
     }
 
+    .Row4Card1 h2{
+        font-size: 8px;
+    }
+
     .Row4Card1 img{
         position: absolute;
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
     }
 
     .Row4Card2{
-        width: 110px;
+        width: 30%;
         height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
@@ -950,14 +1367,19 @@
         letter-spacing: 2px;
     }
 
+    .Row4Card2 h2{
+        font-size: 15px;
+    }
+
     .Row4Card2 img{
         position: absolute;
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
     }
 
     .Row4Card3{
-        width: 110px;
+        width: 30%;
         height: 80px;
         background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
         transition: all 1.5s ease-in-out;
@@ -970,9 +1392,1073 @@
         font-size: 10px;
     }
 
+    .Row4Card3 h2{
+        font-size: 12px;
+    }
+
     .Row4Card3 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+
+    .VCTitle{ 
+        display: flex;
+        width: 100%;
+        height: 20px;
+        font-family: mokoto;
+        font-size: 15px;
+        letter-spacing: 2px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .LineShape7{
+        width: 225px;
+        height: 7px;
+    }
+
+    .VCRow1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .VCRow2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .VCRow3{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .VCRow4{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .Row1Card1{
+        width: 30%;
+        height: 80px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        overflow: hidden;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .Row1Card1 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .Row1Card1 h2{
+        font-size: 15px;
+    }
+
+    .Row1Card2{
+        width: 30%;
+        height: 80px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row1Card2 h2{
+        font-size: 15px;
+    }
+
+    .Row1Card2 img{
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        object-fit: cover;
+    }
+
+    .Row1Card3{
+        width: 30%;
+        height: 80px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .Row1Card3 h2{
+        font-size: 10px;
+    }
+
+    .Row1Card3 img{
+        position: absolute;
+        width: 70px;
+        height: 50px;
+        object-fit: cover;
+    }
+
+    .Row2Card1{
+        width: 30%;
+        height: 80px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row2Card1 h2{
+        font-size: 15px;
+    }
+
+    .Row2Card1 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .Row2Card2{
+        width: 30%;
+        height: 80px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row2Card2 h2{
+        font-size: 15px;
+    }
+
+    .Row2Card2 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .Row2Card3{
+        width: 30%;
+        height: 80px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .Row2Card3 h2{
+        font-size: 14px;
+    }
+
+    .Row2Card3 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .Row3Card1{
+        width: 30%;
+        height: 80px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .Row3Card1 h2{
+        font-size: 10px;
+    }
+
+    .Row3Card1 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .Row3Card2{
+        width: 30%;
+        height: 80px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .Row3Card2 h2{
+        font-size: 10px;
+    }
+
+    .Row3Card2 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .Row3Card3{
+        width: 30%;
+        height: 80px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+
+    .Row3Card3 h2{
+        font-size: 12px;
+    }
+
+    .Row3Card3 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        
+    }
+
+    .Row4Card1{
+        width: 30%;
+        height: 80px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        overflow: hidden;
+        font-size: 7px;
+    }
+
+    .Row4Card1 h2{
+        font-size: 8px;
+    }
+
+    .Row4Card1 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .Row4Card2{
+        width: 30%;
+        height: 80px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row4Card2 h2{
+        font-size: 15px;
+    }
+
+    .Row4Card2 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .Row4Card3{
+        width: 30%;
+        height: 80px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+
+    .Row4Card3 h2{
+        font-size: 12px;
+    }
+
+    .Row4Card3 img{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 427px) and (max-width: 769px) {
+
+    .VCTitle{ 
+        display: flex;
+        width: 100%;
+        height: 30px;
+        font-family: mokoto;
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .LineShape7{
+        width: 290px;
+        height: 7px;
+    }
+
+    .VCRow1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .VCRow2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .VCRow3{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .VCRow4{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .Row1Card1{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        overflow: hidden;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .Row1Card1 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .Row1Card1 h2{
+        font-size: 25px;
+    }
+
+    .Row1Card2{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row1Card2 h2{
+        font-size: 25px;
+    }
+
+    .Row1Card2 img{
         position: absolute;
         width: 80px;
         height: 80px;
+        object-fit: cover;
+    }
+
+    .Row1Card3{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .Row1Card3 h2{
+        font-size: 25px;
+    }
+
+    .Row1Card3 img{
+        position: absolute;
+        width: 90px;
+        height: 60px;
+        object-fit: cover;
+    }
+
+    .Row2Card1{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row2Card1 h2{
+        font-size: 25px;
+    }
+
+    .Row2Card1 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .Row2Card2{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row2Card2 h2{
+        font-size: 25px;
+    }
+
+    .Row2Card2 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .Row2Card3{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .Row2Card3 h2{
+        font-size: 20px;
+    }
+
+    .Row2Card3 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .Row3Card1{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .Row3Card1 h2{
+        font-size: 20px;
+    }
+
+    .Row3Card1 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .Row3Card2{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .Row3Card2 h2{
+        font-size: 20px;
+    }
+
+    .Row3Card2 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .Row3Card3{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+
+    .Row3Card3 h2{
+        font-size: 20px;
+    }
+
+    .Row3Card3 img{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        
+    }
+
+    .Row4Card1{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        overflow: hidden;
+        font-size: 7px;
+    }
+
+    .Row4Card1 h2{
+        font-size: 15px;
+    }
+
+    .Row4Card1 img{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+    }
+
+    .Row4Card2{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row4Card2 h2{
+        font-size: 25px;
+    }
+
+    .Row4Card2 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .Row4Card3{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+
+    .Row4Card3 h2{
+        font-size: 20px;
+    }
+
+    .Row4Card3 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1025px) {
+
+    .VCTitle{ 
+        display: flex;
+        width: 100%;
+        height: 30px;
+        font-family: mokoto;
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .LineShape7{
+        width: 290px;
+        height: 7px;
+    }
+
+    .VCRow1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .VCRow2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .VCRow3{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .VCRow4{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .Row1Card1{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        overflow: hidden;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .Row1Card1 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .Row1Card1 h2{
+        font-size: 25px;
+    }
+
+    .Row1Card2{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row1Card2 h2{
+        font-size: 25px;
+    }
+
+    .Row1Card2 img{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+    }
+
+    .Row1Card3{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .Row1Card3 h2{
+        font-size: 25px;
+    }
+
+    .Row1Card3 img{
+        position: absolute;
+        width: 90px;
+        height: 60px;
+        object-fit: cover;
+    }
+
+    .Row2Card1{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row2Card1 h2{
+        font-size: 25px;
+    }
+
+    .Row2Card1 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .Row2Card2{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row2Card2 h2{
+        font-size: 25px;
+    }
+
+    .Row2Card2 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .Row2Card3{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .Row2Card3 h2{
+        font-size: 20px;
+    }
+
+    .Row2Card3 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .Row3Card1{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .Row3Card1 h2{
+        font-size: 20px;
+    }
+
+    .Row3Card1 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .Row3Card2{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .Row3Card2 h2{
+        font-size: 20px;
+    }
+
+    .Row3Card2 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .Row3Card3{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+
+    .Row3Card3 h2{
+        font-size: 20px;
+    }
+
+    .Row3Card3 img{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        
+    }
+
+    .Row4Card1{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        overflow: hidden;
+        font-size: 7px;
+    }
+
+    .Row4Card1 h2{
+        font-size: 15px;
+    }
+
+    .Row4Card1 img{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+    }
+
+    .Row4Card2{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+    }
+
+    .Row4Card2 h2{
+        font-size: 25px;
+    }
+
+    .Row4Card2 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .Row4Card3{
+        width: 25%;
+        height: 120px;
+        background-image: linear-gradient(to bottom right, #ffffff, #00ffff45);
+        transition: all 1.5s ease-in-out;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: mokoto;
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+
+    .Row4Card3 h2{
+        font-size: 20px;
+    }
+
+    .Row4Card3 img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
     }
 }

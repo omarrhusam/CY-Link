@@ -14,7 +14,7 @@ export default function FixedNavbar() {
                 </div>
                 <div className='Mail'>
                     <img className='MailLogo' src={mailLogo} alt="Mail" />
-                    <p>company@gmail.com</p>
+                    <p>info@cylink-eg.com</p>
                 </div>
                 <div className='Location'>
                     <img className='LocationLogo' src={locationLogo} alt="Location" />

@@ -11,9 +11,9 @@ export default function Footer(){
                     <div className='Line'/>
                 </div>
                 <div className='MailFooter'>
-                    <h2>Company@gmail.com</h2>
+                    <h2>info@cylink-eg.com</h2>
                     <div className='Line'/>
-                </div>
+                </div> 
                 <div className='LocationFooter'>
                     <h2>Arab Contractors Housing, 9, Sheraton <br/> El Matar, El Nozha, Cairo Governorate</h2>
                     <div className='Line'/>

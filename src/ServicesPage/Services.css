@@ -1,8 +1,476 @@
 @font-face {
-    font-family: mokoto;
-    src: url("../Fonts/Mokoto-Demo.ttf");
+  font-family: mokoto;
+  src: url("../Fonts/Mokoto-Demo.ttf");
+}
+
+.TitleGroup {
+  width: 100%;
+  margin-top: 80px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ServicesTitle {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  font-family: mokoto;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.LineShape {
+  height: 10px;
+  width: 300px;
+  background-image: linear-gradient(to right, #d2152b, #b0b0b0);
+  border-radius: 10px;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.Row1 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 370px;
+  margin-bottom: 100px;
+}
+
+.Card1 {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  color: #fff;
+  font-family: mokoto;
+  letter-spacing: 2px;
+  text-align: center;
+  gap: 10px;
+  background-color: #00000070;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 15px 25px #000000;
+}
+.Img1 {
+  width: 200px;
+  height: 200px;
+}
+
+.Img2 {
+  width: 200px;
+  height: 200px;
+}
+
+.Img3 {
+  width: 200px;
+  height: 200px;
+}
+
+.Row2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: center;
+  font-family: mokoto;
+  color: #fff;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.Card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  border-radius: 30px;
+  gap: 10px;
+  background-color: #00000070;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 15px 25px #000000;
+  padding: 30px;
+}
+.Img4 {
+  width: 200px;
+  height: 200px;
+}
+
+.Img5 {
+  width: 200px;
+  height: 200px;
+}
+
+@media (max-width: 321px) {
+  .TitleGroup {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  .ServicesTitle {
+    padding: 0px;
+    font-size: 15px;
+    width: 250px;
+    height: 20px;
+  }
+
+  .LineShape {
+    width: 135px;
+    height: 5px;
+  }
+
+  .body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 181vh;
+  }
+
+  .Row1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 155px;
+    gap: 30px;
+  }
+
+  .Card1{
+    width: 70%;
+    padding: 25px;
+  }
+
+  .Img1 {
+    width: 100px;
+    height: 100px;
   }
   
+  .Img2 {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .Img3 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .Card1 p{
+    font-size: 12px;
+  }
+  
+  .Row2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .Card2{
+    width: 70%;
+    padding: 25px;
+  }
+
+  .Img4 {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .Img5 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .Card2 p{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 322px) and (max-width: 376px) {
+  .TitleGroup {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  .ServicesTitle {
+    padding: 0px;
+    font-size: 17px;
+    width: 250px;
+    height: 25px;
+  }
+
+  .LineShape {
+    width: 140px;
+    height: 5px;
+  }
+
+  .body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 175vh;
+  }
+
+  .Row1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 155px;
+    gap: 30px;
+  }
+
+  .Card1{
+    width: 70%;
+    padding: 25px;
+  }
+
+  .Img1 {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .Img2 {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .Img3 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .Card1 p{
+    font-size: 12px;
+  }
+  
+  .Row2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .Card2{
+    width: 70%;
+    padding: 25px;
+  }
+
+  .Img4 {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .Img5 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .Card2 p{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .TitleGroup {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  .ServicesTitle {
+    padding: 0px;
+    font-size: 17px;
+    width: 250px;
+    height: 25px;
+  }
+
+  .LineShape {
+    width: 140px;
+    height: 5px;
+  }
+
+  .body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 173vh;
+  }
+
+  .Row1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 155px;
+    gap: 30px;
+  }
+
+  .Card1{
+    width: 70%;
+    padding: 25px;
+  }
+
+  .Img1 {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .Img2 {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .Img3 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .Card1 p{
+    font-size: 12px;
+  }
+  
+  .Row2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .Card2{
+    width: 70%;
+    padding: 25px;
+  }
+
+  .Img4 {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .Img5 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .Card2 p{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 427px) and (max-width: 769px) {
+  .TitleGroup {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  .ServicesTitle {
+    padding: 0px;
+    font-size: 17px;
+    width: 250px;
+    height: 25px;
+  }
+
+  .LineShape {
+    width: 140px;
+    height: 5px;
+  }
+
+  .body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 167vh;
+  }
+
+  .Row1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 155px;
+    gap: 30px;
+  }
+
+  .Card1{
+    width: 50%;
+    padding: 25px;
+  }
+
+  .Img1 {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .Img2 {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .Img3 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .Card1 p{
+    font-size: 12px;
+  }
+  
+  .Row2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .Card2{
+    width: 50%;
+    padding: 25px;
+  }
+
+  .Img4 {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .Img5 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .Card2 p{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 1025px) {
   .TitleGroup {
     width: 100%;
     margin-top: 80px;
@@ -33,6 +501,13 @@
     border-radius: 10px;
   }
   
+  .body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+  
   .Row1 {
     display: flex;
     justify-content: space-evenly;
@@ -41,7 +516,7 @@
   }
   
   .Card1 {
-    width: 355px;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,6 +531,8 @@
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     box-shadow: 0 15px 25px #000000;
+    padding: 30px;
+    height: 300px;
   }
   .Img1 {
     width: 200px;
@@ -81,7 +558,6 @@
     color: #fff;
     letter-spacing: 2px;
     text-align: center;
-    margin-bottom: 50px;
   }
   
   .Card2 {
@@ -89,14 +565,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 300px;
-    width: 600px;
+    width: 40%;
     border-radius: 30px;
     gap: 10px;
     background-color: #00000070;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     box-shadow: 0 15px 25px #000000;
+    padding: 30px;
   }
   .Img4 {
     width: 200px;
@@ -107,116 +583,4 @@
     width: 200px;
     height: 200px;
   }
-  
-  @media (max-width: 600px) {
-    .TitleGroup {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-left: 0px;
-    }
-  
-    .ServicesTitle {
-      padding: 0px;
-      font-size: 30px;
-      width: 250px;
-    }
-  
-    .LineShape {
-      width: 230px;
-    }
-  
-    .Row1 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-evenly;
-      height: 255px;
-      margin-bottom: 100px;
-      gap: 30px;
-    }
-
-    .Card1{
-        width: 300px;
-    }
-
-    .Img1 {
-        width: 150px;
-        height: 150px;
-    }
-      
-    .Img2 {
-        width: 150px;
-        height: 150px;
-    }
-      
-    .Img3 {
-        width: 150px;
-        height: 150px;
-    }
-  
-    .Row2 {
-      display: flex;
-      flex-direction: column;
-      margin-top: 540px;
-      gap: 30px;
-    }
-  
-    .Card2 {
-      width: 300px;
-    }
-
-    .Img4 {
-        width: 150px;
-        height: 150px;
-      }
-      
-    .Img5 {
-        width: 150px;
-        height: 150px;
-    }
-  }
-  
-  
-  @media (min-width: 601px) and (max-width: 1024px) {
-      .TitleGroup{
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          margin-top: 130px;
-      }
-  
-      .ServicesTitle{
-          padding: 0px;
-          font-size: 30px;
-          width: 250px;
-      }
-  
-      .LineShape{
-          width: 230px;
-          margin-left: 10px;
-      }
-  
-      .Row1{
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: space-evenly;
-          height: 370px;
-          margin-bottom: 100px;
-          gap: 30px;
-      }
-  
-      .Row2{
-          display: flex;
-          flex-direction: column;
-          margin-top: 540px;
-          gap: 30px;
-      }
-  
-      .Card2{
-          width: 355px;
-      }
-  }
-  
+}

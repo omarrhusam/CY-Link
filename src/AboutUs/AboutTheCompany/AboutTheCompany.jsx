@@ -4,7 +4,7 @@ import CYLogo from '../../assets/logo.png'
 export default function AboutTheCompany() {
     return (
         <main id='AboutTheCompany' className='AboutTheCompany'>
-            <div className='Text'>
+            <div className='ATCText'>
                 <h1>About The Company</h1>
                 <p>CY-LINK specializes in the distribution and<br/>
                 integration of networking,oybersecurity,and<br/>

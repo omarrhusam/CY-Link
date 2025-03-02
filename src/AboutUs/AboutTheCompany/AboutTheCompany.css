@@ -12,24 +12,26 @@
     margin-top: 200px;
 }
 
-.Text{
+.ATCText{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 30px;
     width: 700px;
     height: 500px;
     color: #fff;
 }
 
-.Text h1{
+.ATCText h1{
     width: 100%;
     font-family: mokoto;
     letter-spacing: 2px;
     margin: 0px;
     font-size: 60px;
+    font-family: mokoto;
 }
 
-.Text p{
+.ATCText p{
     font-family: mokoto;
     letter-spacing: 2px;
     line-height: 30px;
@@ -42,12 +44,12 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 321px) {
     .AboutTheCompany{
         display: flex;
         flex-direction: column;
         gap: 0;
-        margin-top: 100px;
+        margin-top: 100px; 
     }
 
     .Logo{
@@ -56,31 +58,144 @@
         width: 300px;
     }
 
-    .Text{
+    .ATCText{
         width: 100%;
-        height: 500px;
+        height: 300px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .Text h1{
+    .ATCText h1{
         width: 88%;
-        font-size: 40px;
+        font-size: 20px;
         
     }
 
-    .Text p{
-        font-size: 18px;
-        margin-left: 25px;
+    .ATCText p{
+        width: 88%;
+        font-size: 8px;
+        line-height: 10px;
+        /* margin-left: 25px; */
     }
 }
 
-@media (min-width: 601px) and (max-width: 1024px) {
+@media (min-width: 322px) and (max-width: 376px) {
     .AboutTheCompany{
         display: flex;
         flex-direction: column;
+        gap: 0;
+        margin-top: 100px; 
+    }
+
+    .Logo{
+        display: none;
+        height: 300px;
+        width: 300px;
+    }
+
+    .ATCText{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ATCText h1{
+        width: 88%;
+        font-size: 20px;
+        
+    }
+
+    .ATCText p{
+        width: 88%;
+        font-size: 10px;
+        line-height: 15px;
+        /* margin-left: 25px; */
+    }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+    .AboutTheCompany{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-top: 100px; 
+    }
+
+    .Logo{
+        display: none;
+        height: 300px;
+        width: 300px;
+    }
+
+    .ATCText{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ATCText h1{
+        width: 88%;
+        font-size: 20px;
+        
+    }
+
+    .ATCText p{
+        width: 88%;
+        font-size: 11px;
+        line-height: 15px;
+        /* margin-left: 25px; */
+    }
+}
+
+@media (min-width: 427px) and (max-width: 769px) {
+    .AboutTheCompany{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-top: 100px; 
+    }
+
+    .Logo{
+        display: none;
+        height: 300px;
+        width: 300px;
+    }
+
+    .ATCText{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ATCText h1{
+        width: 70%;
+        font-size: 25px;
+        
+    }
+
+    .ATCText p{
+        width: 70%;
+        font-size: 15px;
+        /* margin-left: 25px; */
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1024px) {
+    .AboutTheCompany{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
         gap: 0;
         margin-top: 25px;
     }
@@ -90,8 +205,8 @@
         width: 300px;
     }
 
-    .Text{
-        width: 450px;
+    .ATCText{
+        width: 80%;
         height: 500px;
         display: flex;
         flex-direction: column;
@@ -99,13 +214,15 @@
         align-items: center;
     }
 
-    .Text h1{
-        font-size: 40px;
-        margin-left: 25px;
+    .ATCText h1{
+        width: 70%;
+        font-size: 30px;
+        
     }
 
-    .Text p{
+    .ATCText p{
+        width: 70%;
         font-size: 18px;
-        margin-left: 25px;
+        line-height: 20px;
     }
 }

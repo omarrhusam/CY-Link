@@ -4,7 +4,7 @@ export default function MissionVission() {
     return(
         <main id='OurVision&Mission' className='ourVisionMissionMain'>
              <div className='MVTitleGroup'>
-                <h2 className='Title'>Our Vision & Mission</h2>
+                <h2 className='MVTitle'>Our Vision & Mission</h2>
                 <div className='LineShape2'></div>
             </div>
             <body className='Body'>
