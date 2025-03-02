@@ -44,7 +44,7 @@
 }
 
 
-@media (max-width: 321px) {
+@media (max-width: 480px) {
     .AboutTheCompany{
         display: flex;
         flex-direction: column;
@@ -81,7 +81,7 @@
     }
 }
 
-@media (min-width: 322px) and (max-width: 376px) {
+/* @media (min-width: 322px) and (max-width: 376px) {
     .AboutTheCompany{
         display: flex;
         flex-direction: column;
@@ -115,10 +115,10 @@
         font-size: 10px;
         line-height: 15px;
         /* margin-left: 25px; */
-    }
-}
+    /* } */
+/* } */
 
-@media (min-width: 377px) and (max-width: 426px) {
+/* @media (min-width: 377px) and (max-width: 426px) {
     .AboutTheCompany{
         display: flex;
         flex-direction: column;
@@ -126,7 +126,7 @@
         margin-top: 100px; 
     }
 
-    .Logo{
+    .Logo{ 
         display: none;
         height: 300px;
         width: 300px;
@@ -152,10 +152,10 @@
         font-size: 11px;
         line-height: 15px;
         /* margin-left: 25px; */
-    }
-}
+    /* } */
+/* } */
 
-@media (min-width: 427px) and (max-width: 769px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .AboutTheCompany{
         display: flex;
         flex-direction: column;
@@ -191,7 +191,7 @@
     }
 }
 
-@media (min-width: 770px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1279px) {
     .AboutTheCompany{
         width: 90%;
         display: flex;

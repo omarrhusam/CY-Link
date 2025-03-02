@@ -241,7 +241,7 @@
 }
 
 
-@media (max-width: 321px) {
+@media (max-width: 480px) {
 
     .CVBody{
         display: flex;
@@ -377,7 +377,7 @@
     }
 }
 
-@media (min-width: 322px) and (max-width: 376px) {
+/* @media (min-width: 322px) and (max-width: 376px) {
 
     .CVBody{
         display: flex;
@@ -416,7 +416,7 @@
         width: 210px;
         height: 7px;
     }
-
+ 
     .CVCard1{
         background-image: linear-gradient(to bottom right, #ffffff50, #00ffff45);
         display: flex;
@@ -647,9 +647,9 @@
         height: 150px;
         object-fit: cover;
     }
-}
+} */
 
-@media (min-width: 327px) and (max-width: 769px) {
+@media (min-width: 481px) and (max-width: 768px) {
 
     .CVBody{
         display: flex;
@@ -785,7 +785,7 @@
     }
 }
 
-@media (min-width: 770px) and (max-width: 1025px) {
+@media (min-width: 769px) and (max-width: 1279px) {
     .CVMain{
         margin-bottom: 50px;
     }

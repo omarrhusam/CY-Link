@@ -466,7 +466,7 @@
     position: absolute;
     width: 200px;
     height: 200px;
-    object-fit: cover;
+    object-fit: cover; 
 }
 
 .Row3Card2:hover > img{
@@ -698,7 +698,7 @@
     opacity: 0;
 }
 
-@media (max-width: 321px) {
+@media (max-width: 480px) {
 
     .VCTitle{ 
         display: flex;
@@ -1051,7 +1051,7 @@
     }
 }
 
-@media (min-width: 322px) and (max-width: 376px) {
+/* @media (min-width: 322px) and (max-width: 376px) {
 
     .VCTitle{ 
         display: flex;
@@ -1755,9 +1755,9 @@
         height: 70px;
         object-fit: cover;
     }
-}
+} */
 
-@media (min-width: 427px) and (max-width: 769px) {
+@media (min-width: 481px) and (max-width: 768px) {
 
     .VCTitle{ 
         display: flex;
@@ -2110,7 +2110,7 @@
     }
 }
 
-@media (min-width: 770px) and (max-width: 1025px) {
+@media (min-width: 769px) and (max-width: 1279px) {
 
     .VCTitle{ 
         display: flex;

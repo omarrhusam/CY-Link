@@ -155,7 +155,7 @@
     margin-top: 0px;
 }
 
-@media (max-width: 321px) {
+@media (max-width: 480px) {
     .FooterMain{
         width: 100%;
         height: 120vh;
@@ -248,12 +248,12 @@
 
     .LocationFooter h2{
         width: 100%;
-        height: 15px;
+        height: 30px;
         font-size: 7px;
     }
 }
 
-@media (min-width: 322px) and (max-width: 376px) {
+/* @media (min-width: 322px) and (max-width: 376px) {
     .FooterMain{
         width: 100%;
         height: 120vh;
@@ -291,7 +291,7 @@
         display: flex;
         flex-direction: column;
         align-items: start;
-        /* gap: 15px; */
+        gap: 15px;
         color: #ffffff;
         font-family: mokoto;
         font-size: small;
@@ -389,7 +389,7 @@
         display: flex;
         flex-direction: column;
         align-items: start;
-        /* gap: 15px; */
+        gap: 15px;
         color: #ffffff;
         font-family: mokoto;
         font-size: small;
@@ -447,9 +447,9 @@
         height: 15px;
         font-size: 7px;
     }
-}
+} */
 
-@media (min-width: 427px) and (max-width: 769px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .FooterMain{
         width: 100%;
         height: 70vh;
@@ -545,12 +545,12 @@
 
     .LocationFooter h2{
         width: 100%;
-        height: 15px;
+        height: 30px;
         font-size: 7px;
     }
 }
 
-@media (min-width: 770px) and (max-width: 1025px) {
+@media (min-width: 769px) and (max-width: 1279px) {
     .FooterMain{
         width: 100%;
         height: 70vh;
@@ -599,7 +599,7 @@
         width: 90%;
         height: 200px;
     }
-
+ 
     .LSLFooter img{
         position: relative;
         left: 50px;
@@ -654,7 +654,7 @@
 
     .LocationFooter h2{
         width: 100%;
-        height: 15px;
+        height: 30px;
         font-size: 10px;
     }
 }

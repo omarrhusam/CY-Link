@@ -98,7 +98,7 @@
     width: 100%;
     text-align: center;
     letter-spacing: 3px;
-}
+} 
 
 .NVRow3{
     display: flex;
@@ -131,7 +131,7 @@
     letter-spacing: 3px;
 }
 
-@media (max-width: 321px) {
+@media (max-width: 480px) {
     .NetworkVendorsTitleGroup{
         width: 100%;
         height: 100px;
@@ -217,7 +217,7 @@
     }
 }
 
-@media (min-width: 322px) and (max-width: 376px) {
+/* @media (min-width: 322px) and (max-width: 376px) {
     .NetworkVendorsTitleGroup{
         width: 100%;
         height: 100px;
@@ -387,9 +387,9 @@
     .Row3Cards h2{
         font-size: 25px;
     }
-}
+} */
 
-@media (min-width: 427px) and (max-width: 769px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .NetworkVendorsTitleGroup{
         width: 100%;
         height: 100px;
@@ -476,7 +476,7 @@
 }
 
 
-@media (min-width: 770px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1279px) {
     .MainNetworkVendors{
         margin-top: 100px;
         width: 100%;

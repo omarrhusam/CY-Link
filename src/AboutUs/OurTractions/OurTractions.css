@@ -126,7 +126,7 @@
     color: white;
 }
 
-@media (max-width: 321px) {
+@media (max-width: 480px) {
     .TractionsTitleGroup{
         height: 100px;
     }
@@ -215,7 +215,7 @@
     
 }
 
-@media (min-width: 322px) and (max-width: 376px) {
+/* @media (min-width: 322px) and (max-width: 376px) {
     .TractionsTitleGroup{
         height: 100px;
     }
@@ -391,9 +391,9 @@
         color: white;
     }
     
-}
+} */
 
-@media (min-width: 427px) and (max-width: 769px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .TractionsTitleGroup{
         height: 100px;
     }
@@ -482,7 +482,7 @@
     
 }
 
-@media (min-width: 770px) and (max-width: 1025px) {
+@media (min-width: 769px) and (max-width: 1279px) {
     .TractionsMain{
         margin-bottom: 50px;
     }
@@ -525,7 +525,7 @@
         justify-content: space-evenly;
     }
     
-    .NetRevenueCard{
+    .NetRevenueCard{ 
         display: flex;
         flex-direction: column;
         align-items: center; 

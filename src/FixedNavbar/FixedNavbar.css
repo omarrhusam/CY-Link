@@ -71,7 +71,7 @@
     height: 20px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
     .FixedNavbarFrame{
         justify-content: space-evenly;
         align-items: center;
@@ -110,7 +110,7 @@
     }
 }
 
-@media (min-width: 321px) and (max-width: 376px) {
+/* @media (min-width: 321px) and (max-width: 376px) {
     .FixedNavbarFrame{
         justify-content: space-evenly;
         align-items: center;
@@ -186,9 +186,9 @@
     .Location p{
         display: none;
     }
-}
+} */
 
-@media (min-width: 426px) and (max-width: 787px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .FixedNavbarFrame{
         align-items: center;
         width: 100%;
@@ -230,7 +230,7 @@
     }
 }
 
-@media (min-width: 788px) and (max-width: 1025px) {
+@media (min-width: 769px) and (max-width: 1279px) {
     .FixedNavbarFrame{
         align-items: center;
         width: 100%;

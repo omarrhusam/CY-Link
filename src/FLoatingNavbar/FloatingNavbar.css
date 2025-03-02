@@ -159,7 +159,7 @@
     height: 20px;
 }
 
-@media (max-width: 321px) {
+@media (max-width: 480px) {
     .FloatingNavbarFrame{
         width: 100%;
         display: flex;
@@ -239,7 +239,7 @@
     }
 }
 
-@media (min-width: 322px) and (max-width: 376px) {
+/* @media (min-width: 322px) and (max-width: 376px) {
     .FloatingNavbarFrame{
         width: 100%;
         display: flex;
@@ -316,9 +316,9 @@
     .drop-menu li{
         padding: 10px;
     }
-}
+} */
 
-@media (min-width: 377px) and (max-width: 426px) {
+/* @media (min-width: 377px) and (max-width: 426px) {
     .FloatingNavbarFrame{
         width: 100%;
         display: flex;
@@ -395,9 +395,9 @@
     .drop-menu li{
         padding: 10px;
     }
-}
+} */
 
-@media (min-width: 427px) and (max-width: 769px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .FloatingNavbarFrame{
         width: 100%;
         display: flex;
@@ -434,6 +434,7 @@
         background-color: #000000;
         transition: 1s;
         transform: translateY(-100vh);
+        z-index: 1;
     }
 
     .NavbarNavigations .NavCloseBtn{
@@ -479,7 +480,7 @@
     }
 }
 
-@media (min-width: 770px) and (max-width: 1025px) {
+@media (min-width: 769px) and (max-width: 1279px) {
     .FloatingNavbarFrame{
         width: 100%;
         gap: 50px;

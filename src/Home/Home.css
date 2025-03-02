@@ -59,7 +59,7 @@
     background-color: #D2152B;
 }
 
-@media (max-width: 321px) {
+@media (max-width: 480px) {
     .Home{
         height: 35vh;
         display: flex;
@@ -108,7 +108,7 @@
     }
 }
 
-@media (min-width: 322px) and (max-width: 376px) {
+/* @media (min-width: 322px) and (max-width: 376px) {
     .Home{
         height: 35vh;
         display: flex;
@@ -204,9 +204,9 @@
         transition: all 0.5s ease-in-out;
         letter-spacing: 2px;
     }
-}
+} */
 
-@media (min-width: 427px) and (max-width: 769px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .Home{
         height: 60vh;
         display: flex;
@@ -246,7 +246,7 @@
         border-radius: 10px;
         width: 200px;
         height: 50px;
-        cursor: pointer;
+        cursor: pointer; 
         background-color: transparent;
         color: #ffffff;
         transition: all 0.5s ease-in-out;
@@ -254,7 +254,7 @@
     }
 }
 
-@media (min-width: 770px) and (max-width: 1025px) {
+@media (min-width: 769px) and (max-width: 1279px) {
     .Home{
         height: 60vh;
         display: flex;
