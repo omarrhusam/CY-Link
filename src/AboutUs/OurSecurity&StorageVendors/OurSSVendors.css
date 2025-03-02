@@ -355,3 +355,73 @@
         object-fit: cover;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1279px) {
+
+    .SSVendorsTitleGroup{
+        width: 100%;
+        margin-top: 0;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .SSVendorsTitle{
+        display: flex;
+        width: 100%;
+        height: 20px;
+        font-family: mokoto;
+        font-size: 15px;
+        letter-spacing: 2px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .LineShape4{
+        height: 7px;
+        width: 330px;
+        background-image: linear-gradient(to right, #D2152B, #B0B0B0);
+        border-radius: 10px;
+    }
+
+    .SSVBody{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .CirclesRow1{
+        width: 90%;
+        display: flex;
+    }
+
+    .CirclesRow2{
+        width: 90%;
+        display: flex;
+    }
+
+    .CirclesRow3{
+        width: 90%;
+        display: flex;
+    }
+
+    .Circle{
+        width: 120px;
+        height: 120px;
+        background-color: #B0B0B0;
+        border-radius: 100px;
+        overflow: hidden;
+        background-color: #ffffff;
+    } 
+    
+    .Circle img {
+        width: 120px;
+        height: 120px; 
+        object-fit: cover;
+    }
+}
