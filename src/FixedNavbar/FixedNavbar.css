@@ -3,6 +3,10 @@
     src: url(../Fonts/Mokoto-Demo.ttf);
 }
 
+@font-face {
+    font-family: mont;
+    src: url(../Fonts/Oswald-VariableFont_wght.ttf);
+}
   
 .FixedNavbarFrame{
     position: static;
@@ -36,7 +40,10 @@
     align-items: center;
     gap: 5px;
     font-size: 10px;
-    font-family: mokoto;
+    font-family: mont;
+    font-weight: 550;
+    color: #ffffff;
+    text-decoration: none;
     
 }
 
@@ -45,7 +52,10 @@
     align-items: center;
     gap: 5px;
     font-size: 10px;
-    font-family: mokoto;
+    font-family: mont;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .Location{
@@ -53,7 +63,8 @@
     align-items: center;
     gap: 5px;
     font-size: 10px;
-    font-family: mokoto;
+    font-family: mont;
+    font-weight: 600;
 }
 
 .PhoneLogo{
@@ -80,24 +91,24 @@
         height: 25px;
     }
     .NavbarQuote{
-        font-size: 5px;
+        font-size: 7px;
     }
     .ContactInfo{
         gap: 10px;
         font-size: 5px;
     }
     .PhoneLogo{
-        width: 10px;
-        height: 10px;
+        width: 15px;
+        height: 15px;
     }
     .MailLogo{
-        width: 10px;
-        height: 10px;
+        width: 15px;
+        height: 15px;
     }
     
     .LocationLogo{
-        width: 10px;
-        height: 10px;
+        width: 15px;
+        height: 15px;
     }
     .Phone p{
         display: none;

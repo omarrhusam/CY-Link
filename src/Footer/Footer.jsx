@@ -6,14 +6,14 @@ export default function Footer(){
     return(
         <main id='ContactUS' className='FooterMain'>
             <div className='UpperFooter'>
-                <div className='PhoneFooter'>
+                <a href='tel:+201021962000' className='PhoneFooter'>
                     <h2>+201021962000</h2>
                     <div className='Line'/>
-                </div>
-                <div className='MailFooter'>
+                </a>
+                <a href='mailto:info@cylink-eg.com' className='MailFooter'>
                     <h2>info@cylink-eg.com</h2>
                     <div className='Line'/>
-                </div> 
+                </a> 
                 <div className='LocationFooter'>
                     <h2>Arab Contractors Housing, 9, Sheraton <br/> El Matar, El Nozha, Cairo Governorate</h2>
                     <div className='Line'/>

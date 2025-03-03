@@ -21,10 +21,12 @@
 
 .PhoneFooter{
     width: 30%;
+    text-decoration: none;
 }
 
 .MailFooter{
     width: 30%;
+    text-decoration: none;
 }
 
 .LocationFooter{
@@ -158,7 +160,7 @@
 @media (max-width: 480px) {
     .FooterMain{
         width: 100%;
-        height: 120vh;
+        height: 140vh;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -168,7 +170,7 @@
 
     .UpperFooter{
         width: 100%;
-        height: 80vh;
+        height: 30vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -179,7 +181,7 @@
 
     .LowerFooter{
         width: 100%;
-        height: 100vh;
+        height: 70vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -226,30 +228,36 @@
     }
 
     .PhoneFooter{
-        width: 105px;
+        width: 70%;
     }
 
     .PhoneFooter h2{
         font-size: 10px;
+        margin-bottom: 0px;
     }
 
     .MailFooter{
-        width: 140px;
+        width: 70%;
     }
 
     .MailFooter h2{
         font-size: 10px;
+        margin: 0px;
     }
 
     .LocationFooter{
-        width: 230px;
+        width: 100%;
         line-height: 10px;
     }
 
     .LocationFooter h2{
         width: 100%;
         height: 30px;
-        font-size: 7px;
+        font-size: 10px;
+    }
+
+    .Line{
+        display: none;
     }
 }
 

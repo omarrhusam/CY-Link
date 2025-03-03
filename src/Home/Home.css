@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: mont;
-    src: url(../Fonts/Montserrat-Black.ttf);
+    src: url(../Fonts/Oswald-VariableFont_wght.ttf);
 }
 
 .Home{
@@ -82,14 +82,14 @@
     }
 
     .HomeText h1{ 
-        width: 80%;
-        font-size: 15px;
+        width: 70%;
+        font-size: 17px;
 
     }
 
     .HomeText p{
-        width: 80%;
-        font-size: 8px;
+        width: 70%;
+        font-size: 12px;
         line-height: 15px;
     }
 

@@ -8,14 +8,14 @@ export default function FixedNavbar() {
         <main id='Home' className='FixedNavbarFrame'>
             <p className='NavbarQuote'>Secure Your Business Future, Today!</p>
             <div className='ContactInfo'>
-                <div className='Phone'>
+                <a className='Phone' href='tel:+201021962000'>
                     <img className='PhoneLogo' src={phoneLogo} alt="Mobile Number" />
                     <p>+201021962000</p>
-                </div>
-                <div className='Mail'>
+                </a>
+                <a className='Mail' href='mailto:info@cylink-eg.com'>
                     <img className='MailLogo' src={mailLogo} alt="Mail" />
                     <p>info@cylink-eg.com</p>
-                </div>
+                </a>
                 <div className='Location'>
                     <img className='LocationLogo' src={locationLogo} alt="Location" />
                     <p>Arab Contractors Housing, 9, Sheraton <br/> El Matar, El Nozha, Cairo Governorate</p>

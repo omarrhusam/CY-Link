@@ -16,7 +16,7 @@ import Footer from './Footer/Footer.jsx'
 function App() {
   return (
     <main className='Main'>
-      <video className='Bgvideo' autoPlay loop muted>
+      <video className='Bgvideo' autoPlay loop muted playsInline>
         <source src={bgImage} type='video/mp4'/>
       </video>
       <FixedNavbar/>

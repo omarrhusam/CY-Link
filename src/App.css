@@ -11,7 +11,7 @@
     filter: brightness(75%);
 }
 
-@media (min-width: 300px) and (max-width: 600px) {
+/* @media (min-width: 300px) and (max-width: 600px) {
 
     .Bgvideo{
         position:fixed;
@@ -23,4 +23,4 @@
         object-fit: cover;
         filter: brightness(75%);
     }
-}
+} */
