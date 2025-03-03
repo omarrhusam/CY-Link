@@ -14,9 +14,10 @@ import OurValuedCustomers from './AboutUs/OurValuedCustomers/OurValuedCustomers.
 import Footer from './Footer/Footer.jsx'
 
 function App() {
+  
   return (
     <main className='Main'>
-      <video className='Bgvideo' autoPlay loop muted playsInline>
+      <video id='bg-video' className='Bgvideo' autoPlay loop muted playsInline>
         <source src={bgImage} type='video/mp4'/>
       </video>
       <FixedNavbar/>
@@ -34,5 +35,6 @@ function App() {
     </main>
   )
 }
+
 
 export default App

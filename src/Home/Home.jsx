@@ -10,11 +10,11 @@ export default function Home(){
                     ADVISORS
                 </h1>
                 <p>
-                    Specializing in thorough assessments, customized <br/>
+                    Specializing in thorough assessments, customized 
                     solutions, and ongoing support,we are committed to <br/>
-                    helping you establish and sustain a strong digital defense. <br/>
+                    helping you establish and sustain a strong digital defense. 
                     As  a leading cybersecurity firm in Dallas and Fort Worth, <br/>
-                    our mission is to protect your digital infrastructure with <br/>
+                    our mission is to protect your digital infrastructure with 
                     exceptional expertise and steadfast dedication .
                 </p>
             </div>
