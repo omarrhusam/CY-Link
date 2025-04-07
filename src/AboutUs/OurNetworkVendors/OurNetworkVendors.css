@@ -52,6 +52,7 @@
     border-radius: 30px;
     overflow: hidden;
     align-items: center;
+    text-decoration: none;
 }
 
 .Row1Cards img{
@@ -67,6 +68,7 @@
     width: 100%;
     text-align: center;
     letter-spacing: 3px;
+    color: black;
 }
 
 .NVRow2{
@@ -83,6 +85,7 @@
     border-radius: 30px;
     overflow: hidden;
     align-items: center;
+    text-decoration: none;
 }
 
 .Row2Cards img{
@@ -98,6 +101,7 @@
     width: 100%;
     text-align: center;
     letter-spacing: 3px;
+    color: black;
 } 
 
 .NVRow3{
@@ -114,6 +118,7 @@
     border-radius: 30px;
     overflow: hidden;
     align-items: center;
+    text-decoration: none;
 }
 
 .Row3Cards img{
@@ -129,6 +134,7 @@
     width: 100%;
     text-align: center;
     letter-spacing: 3px;
+    color: black;
 }
 
 @media (max-width: 480px) {

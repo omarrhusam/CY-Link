@@ -11,18 +11,18 @@ export default function OurCloudVendors() {
                 <div className='LineShape5'></div>
             </div>
             <body className='CVBody'>
-                <div className='CVCard1'>
-                    <img src={MicrosoftAzura} alt="" />
+                <a href='https://azure.microsoft.com/en-us/' className='CVCard1'>
+                    <img src={MicrosoftAzura} alt="" loading='lazy'/>
                     <h2>Microsoft Azura</h2>
-                </div>
-                <div className='CVCard2'>
-                    <img src={aws} alt="" />
+                </a>
+                <a href='https://aws.amazon.com/' className='CVCard2'>
+                    <img src={aws} alt="" loading='lazy'/>
                     <h2>Amazon Web Services</h2>
-                </div>
-                <div className='CVCard3'>
-                    <img src={huawei} alt="" />
+                </a>
+                <a href='https://www.huaweicloud.com/intl/en-us/' className='CVCard3'>
+                    <img src={huawei} alt="" loading='lazy'/>
                     <h2>Huawei</h2>
-                </div>
+                </a>
             </body>
         </main>
     )

@@ -15,25 +15,25 @@ export default function Services() {
             <body className='body'>
                 <div className='Row1'>
                     <div className='Card1'>
-                        <img src={img1} className='Img1' />
+                        <img src={img1} className='Img1' loading='lazy' />
                         <p>Consultation<br/>& Implementation services</p>
                     </div>
                     <div className='Card1'>
-                        <img src={img2} className='Img2'/>
+                        <img src={img2} className='Img2' loading='lazy' />
                         <p>Penetration Testing<br/>& Security assessment services</p>
                     </div>
                     <div className='Card1'>
-                        <img src={img3} className='Img3'/>
+                        <img src={img3} className='Img3' loading='lazy' />
                         <p>Solution Design, Configuration<br/>& Finetuning services</p>
                     </div>
                 </div>
                 <div className='Row2'>
                     <div className='Card2'>
-                        <img src={img4} className='Img4'/>
+                        <img src={img4} className='Img4' loading='lazy' />
                         <p>Deployment of Various Cybersecurity  solutions<br/>(cloud, OT, SecOps solutions).</p>
                     </div>
                     <div className='Card2'>
-                        <img src={img5} className='Img5'/>
+                        <img src={img5} className='Img5' loading='lazy' />
                         <p>Educational Recourses & after sale support.</p>
                     </div>
                 </div>

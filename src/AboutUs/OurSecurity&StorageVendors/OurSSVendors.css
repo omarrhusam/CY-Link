@@ -72,6 +72,16 @@
     background-color: #ffffff;
 } 
 
+.Circle:hover {
+    transition: 1s;
+    filter: invert(100);
+}
+
+.Circle:not(:hover) {
+    transition: 1s;
+    filter: invert(0);
+}
+
 .Circle img {
     width: 150px;
     height: 150px;

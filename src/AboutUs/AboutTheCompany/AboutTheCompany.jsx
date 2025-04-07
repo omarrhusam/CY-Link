@@ -14,7 +14,7 @@ export default function AboutTheCompany() {
                 to enhance their IT infrastructure<br/>
                 and protect against cyber threats.</p>
             </div>
-            <img src={CYLogo} alt="CY-Link" className='Logo'/>
+            <img src={CYLogo} alt="CY-Link" className='Logo' loading='lazy'/>
         </main>
     )
 }

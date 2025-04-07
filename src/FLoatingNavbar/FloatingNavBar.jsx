@@ -12,7 +12,7 @@ export default function FloatingNavbar() {
 
     return(
         <main className='FloatingNavbarFrame'>
-            <img src={CYLinkLogo} alt="CY-Link" />
+            <img src={CYLinkLogo} alt="CY-Link" loading='lazy' />
             <nav ref={navRef} className='NavbarNavigations'>
                 <ul className='nav-links'>
                     <li className='nav-link'> 

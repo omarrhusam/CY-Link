@@ -21,60 +21,60 @@ export default function OurValuedCustomers() {
             </div>
             <body className='VCBody'>
                 <div className='VCRow1'>
-                    <div className='Row1Card1'>
-                        <img src={SuazCanal} alt="" />
+                    <a href='' className='Row1Card1'>
+                        <img src={SuazCanal} alt="" loading='lazy'/>
                         <h2>Suaz<br/>Canal</h2>
-                    </div>
-                    <div className='Row1Card2'>
-                        <img src={AAST} alt="" />
+                    </a>
+                    <a href='' className='Row1Card2'>
+                        <img src={AAST} alt="" loading='lazy'/>
                         <h2>AAST</h2>
-                    </div>
-                    <div className='Row1Card3'>
-                        <img src={CACC} alt="" />
+                    </a>
+                    <a href='' className='Row1Card3'>
+                        <img src={CACC} alt="" loading='lazy'/>
                         <h2>CACC Cargolinx</h2>
-                    </div>
+                    </a>
                 </div>
                 <div className='VCRow2'>
-                    <div className='Row2Card1'>
-                        <img src={taqa} alt="" />
+                    <a href='' className='Row2Card1'>
+                        <img src={taqa} alt="" loading='lazy'/>
                         <h2>TAQA</h2>
-                    </div>
-                    <div className='Row2Card2'>
-                        <img src={natco} alt="" />
+                    </a>
+                    <a href='' className='Row2Card2'>
+                        <img src={natco} alt="" loading='lazy'/>
                         <h2>Natco</h2>
-                    </div>
-                    <div className='Row2Card3'>
-                        <img src={MisrItalia} alt="" />
+                    </a>
+                    <a href='' className='Row2Card3'>
+                        <img src={MisrItalia} alt="" loading='lazy'/>
                         <h2>Misr Italia</h2>
-                    </div>
+                    </a>
                 </div>
                 <div className='VCRow3'>
-                    <div className='Row3Card1'>
-                        <img src={hospital} alt="" />
+                    <a href='' className='Row3Card1'>
+                        <img src={hospital} alt="" loading='lazy'/>
                         <h2>Nasaaem Hospital</h2>
-                    </div>
-                    <div className='Row3Card2'>
-                        <img src={arb} alt="" />
+                    </a>
+                    <a href='' className='Row3Card2'>
+                        <img src={arb} alt="" loading='lazy'/>
                         <h2>ARB Call Facilities</h2>
-                    </div>
-                    <div className='Row3Card3'>
-                        <img src={talabat} alt="" />
+                    </a>
+                    <a href='' className='Row3Card3'>
+                        <img src={talabat} alt="" loading='lazy'/>
                         <h2>Talabat</h2>
-                    </div>
+                    </a>
                 </div>
                 <div className='VCRow4'>
-                    <div className='Row4Card1'>
-                        <img src={mediterraneo} alt="" />
+                    <a href='' className='Row4Card1'>
+                        <img src={mediterraneo} alt="" loading='lazy'/>
                         <h2>Mediterraneo</h2>
-                    </div>
-                    <div className='Row4Card2'>
-                        <img src={IDH} alt="" />
+                    </a>
+                    <a href='' className='Row4Card2'>
+                        <img src={IDH} alt="" loading='lazy'/>
                         <h2>IDH</h2>
-                    </div>
-                    <div className='Row4Card3'>
-                        <img src={mazloum} alt="" />
+                    </a>
+                    <a href='' className='Row4Card3'>
+                        <img src={mazloum} alt="" loading='lazy'/>
                         <h2>Mazloum</h2>
-                    </div>
+                    </a>
                 </div>
             </body>
         </main>

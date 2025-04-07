@@ -21,46 +21,46 @@ export default function OurSSVendors() {
             </div>
             <body className='SSVBody'>
                 <div className='CirclesRow1'>
-                    <div className='Circle'>
-                        <img src={FortinetLogo} alt="Fortinet" />
-                    </div>
-                    <div className='Circle'>
-                        <img src={Kaspersky} alt="Kaspersky" />
-                    </div>
-                    <div className='Circle'>
-                        <img src={TrendMicro} alt="TrendMicro" />
-                    </div>
-                    <div className='Circle'>
-                        <img src={forcepoint} alt="ForcePoint" />
-                    </div>
+                    <a href='https://www.fortinet.com/' className='Circle'>
+                        <img src={FortinetLogo} alt="Fortinet" loading='lazy'/>
+                    </a>
+                    <a href='https://me.kaspersky.com/' className='Circle'>
+                        <img src={Kaspersky} alt="Kaspersky" loading='lazy'/>
+                    </a>
+                    <a href='https://www.trendmicro.com/en_us/business.html' className='Circle'>
+                        <img src={TrendMicro} alt="TrendMicro" loading='lazy'/>
+                    </a>
+                    <a href='https://www.forcepoint.com/' className='Circle'>
+                        <img src={forcepoint} alt="ForcePoint" loading='lazy'/>
+                    </a>
                 </div>
                 <div className='CirclesRow2'>
-                    <div className='Circle'>
-                        <img src={CrowdStrike} alt="CrowdStrike" />
-                    </div>
-                    <div className='Circle'>
-                        <img src={eset} alt="eset" />
-                    </div>
-                    <div className='Circle'>
-                        <img src={cisco} alt="Cisco" />
-                    </div>
-                    <div className='Circle'>
-                        <img src={veritas} alt="Veritas" />
-                    </div>
+                    <a href='https://www.crowdstrike.com/' className='Circle'>
+                        <img src={CrowdStrike} alt="CrowdStrike" loading='lazy'/>
+                    </a>
+                    <a href='https://www.eset.com/us/?srsltid=AfmBOooUWU9TtkTtO_ZINO4FnBFYU5sqwXL2_fOnJYuxgqgLdC7ooULc' className='Circle'>
+                        <img src={eset} alt="eset" loading='lazy'/>
+                    </a>
+                    <a href='https://www.cisco.com/' className='Circle'>
+                        <img src={cisco} alt="Cisco" loading='lazy'/>
+                    </a>
+                    <a href='https://www.veritas.com/' className='Circle'>
+                        <img src={veritas} alt="Veritas" loading='lazy'/>
+                    </a>
                 </div>
                 <div className='CirclesRow3'>
-                    <div className='Circle'>
-                        <img src={commvault} alt="CommVault" />
-                    </div>
-                    <div className='Circle'>
-                        <img src={Barracuda} alt="Barracuda" />
-                    </div>
-                    <div className='Circle'>
-                        <img src={veeam} alt="Veeam" />
-                    </div>
-                    <div className='Circle'>
-                        <img src={NetApp} alt="NetApp" />
-                    </div>
+                    <a href='https://www.commvault.com/' className='Circle'>
+                        <img src={commvault} alt="CommVault" loading='lazy'/>
+                    </a>
+                    <a href='https://www.barracuda.com/' className='Circle'>
+                        <img src={Barracuda} alt="Barracuda" loading='lazy'/>
+                    </a>
+                    <a href='https://www.commvault.com/' className='Circle'>
+                        <img src={veeam} alt="Veeam" loading='lazy'/>
+                    </a>
+                    <a href='https://www.netapp.com/' className='Circle'>
+                        <img src={NetApp} alt="NetApp" loading='lazy'/>
+                    </a>
                 </div>
             </body>
         </main>

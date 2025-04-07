@@ -14,30 +14,30 @@ export default function OurNetworkVendors(){
             </div>
             <body className='NVBody'>
                 <div className='NVRow1'>
-                    <div className='Row1Cards'>
-                        <img src={Fortinet} alt="Fortinet" />
+                    <a href='https://www.fortinet.com/' className='Row1Cards'>
+                        <img src={Fortinet} alt="Fortinet" loading='lazy'/>
                         <h2>Fortinet</h2>
-                    </div>
-                    <div className='Row1Cards'>
-                        <img src={Aruba} alt="Aruba" />
+                    </a>
+                    <a href='https://www.hpe.com/us/en/networking/hpe-aruba-networking.html' className='Row1Cards'>
+                        <img src={Aruba} alt="Aruba" loading='lazy'/>
                         <h2>Aruba</h2>
-                    </div>
+                    </a>
                 </div>
                 <div className='NVRow2'>
-                    <div className='Row2Cards'>
-                        <img src={Cisco} alt="Cisco" />
+                    <a href='https://www.cisco.com/' className='Row2Cards'>
+                        <img src={Cisco} alt="Cisco" loading='lazy'/>
                         <h2>Cisco</h2>
-                    </div>
-                    <div className='Row2Cards'>
-                        <img src={Huawei} alt="Huawei" />
+                    </a>
+                    <a href='https://e.huawei.com/en/solutions/enterprise-network' className='Row2Cards'>
+                        <img src={Huawei} alt="Huawei" loading='lazy'/>
                         <h2>Huawei</h2>
-                    </div>
+                    </a>
                 </div>
                 <div className='NVRow3'>
-                <div className='Row3Cards'>
-                        <img src={F5} alt="F5" />
+                <a href='' className='Row3Cards'>
+                        <img src={F5} alt="F5" loading='lazy'/>
                         <h2>F5</h2>
-                    </div>
+                </a>
                 </div>
             </body>
         </main>

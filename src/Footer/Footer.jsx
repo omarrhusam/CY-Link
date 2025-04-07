@@ -22,7 +22,7 @@ export default function Footer(){
             <div className='LongLine'/>
             <body className='LowerFooter'>
                 <div className='LSLFooter'>
-                    <img src={logo} alt="CY-Link" />
+                    <img src={logo} alt="CY-Link" loading='lazy' />
                     <p>Specializing in thorough<br/>
                     assessments, customized<br/>
                     solutions, and on</p>
