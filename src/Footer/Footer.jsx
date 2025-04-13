@@ -23,9 +23,7 @@ export default function Footer(){
             <body className='LowerFooter'>
                 <div className='LSLFooter'>
                     <img src={logo} alt="CY-Link" loading='lazy' />
-                    <p>Specializing in thorough<br/>
-                    assessments, customized<br/>
-                    solutions, and on</p>
+                    <p>Specializing in the distribution and integration of Networking, Cybersecurity, and Cloud Solution.</p>
                 </div>
                 <div className='RSLFooter'>
                     <div className='QuickLines1'>

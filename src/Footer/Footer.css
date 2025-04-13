@@ -152,7 +152,7 @@
     color: #ffffff;
     font-family: mokoto;
     letter-spacing: 2px;
-    font-size: 26px;
+    font-size: 24px;
     height: 100px;
     margin-top: 0px;
 }
@@ -207,8 +207,8 @@
     }
 
     .LSLFooter p{
-        font-size: 15px;
-        height: 70px;
+        font-size: 12px;
+        height: 60px;
     }
 
     .QuickLines1 h1{

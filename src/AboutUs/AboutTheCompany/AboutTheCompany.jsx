@@ -7,10 +7,10 @@ export default function AboutTheCompany() {
             <div className='ATCText'>
                 <h1>About The Company</h1>
                 <p>CY-LINK specializes in the distribution and<br/>
-                integration of networking,oybersecurity,and<br/>
-                cloud solutions.We aim to empower<br/>
+                integration of networking, Cybersecurity, and
+                cloud solutions. We aim to empower<br/>
                 businesses of all sizes with<br/>
-                robust,secure,and scalable technologies<br/>
+                robust, secure, and scalable technologies<br/>
                 to enhance their IT infrastructure<br/>
                 and protect against cyber threats.</p>
             </div>
